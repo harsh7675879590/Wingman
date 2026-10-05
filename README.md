@@ -62,7 +62,7 @@ Wingman is designed as a decoupled, event-driven agentic framework built for rea
 ### 1. High-Level System Component Diagram
 
 <p align="center">
-  <img src="docs/images/system-architecture.png" alt="High-Level System Component Diagram" width="820" />
+  <img src="docs/images/High-Level%20System%20Component%20Diagram.png" alt="High-Level System Component Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 </p>
 
 <details>
@@ -121,7 +121,7 @@ graph TB
 The system enforces a strict unidirectional progression from raw ingestion to the final ranked matrix:
 
 <p align="center">
-  <img src="docs/images/dating-pipeline.png" alt="End-to-End Agent Lifecycle & Dating Pipeline" width="280" />
+  <img src="docs/images/End-to-End%20Agent%20Lifecycle%20%26%20Dating%20Pipeline.png" alt="End-to-End Agent Lifecycle & Dating Pipeline" style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 </p>
 
 <details>
@@ -184,7 +184,7 @@ flowchart TD
 During a date, both agents operate in **completely isolated LLM contexts**. Each agent knows its own human deeply but only knows the other person through their public dating card:
 
 <p align="center">
-  <img src="docs/images/date-sequence.png" alt="Live Multi-Turn Date Sequence Diagram" width="820" />
+  <img src="docs/images/Live%20Multi-Turn%20Date%20Sequence%20Diagram.png" alt="Live Multi-Turn Date Sequence Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 </p>
 
 <details>
