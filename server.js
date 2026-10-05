@@ -58,7 +58,7 @@ function addPerson(req, body) {
     id, createdAt: Date.now(), status: 'queued', linkedin, instagram, name: parseInstagram(instagram),
     gender: ['man', 'woman', 'nonbinary'].includes(body.gender) ? body.gender : null,
     interestedIn: ['man', 'woman', 'any'].includes(body.interestedIn) ? body.interestedIn : 'any',
-    manual: { linkedinText: String(body.linkedinText || '').slice(0, 8000), instagramText: String(body.instagramText || '').slice(0, 8000) },
+    manual: { linkedinText: String(body.linkedinText || body.manual?.linkedinText || '').slice(0, 8000), instagramText: String(body.instagramText || body.manual?.instagramText || '').slice(0, 8000) },
     log: [],
   };
   req.db.people[id] = p;
