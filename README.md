@@ -219,20 +219,5 @@ ADMIN_KEY=your_secret_key     # Allows publishing snapshots to demo
 
 ---
 
-## 🎥 3-Minute Video Walkthrough (`wingman_demo.mp4`)
-
-> **File Location**: [`wingman_demo.mp4`](file:///c:/Users/harsh/OneDrive/Desktop/Wingman/wingman_demo.mp4) (Duration: **2:43** — strictly under the 3-minute limit, 1080p Full HD, 10.3 MB)
-
-| Timestamp | Phase | What is Shown on Screen | Video Content & Voiceover Summary |
-|-----------|-------|-------------------------|-----------------------------------|
-| **0:00 - 0:04** | **Platform Intro** | Homepage Hero (`#/`) | Brief project title card: *"🪽 Wingman: The Agentic Dating Site. Each person is represented by an AI agent that dates on their behalf."* |
-| **0:04 - 1:04** | **Part 1: Profile Pages First** | Profile Pages (`#/p/p_brian_chesky`, `#/p/p_whitney_wolfe_herd`, `#/people`) | **Brian Chesky & Whitney Wolfe Herd Deep Dive**: Exactly two official sources (LinkedIn + Public Instagram). Shows extracted needs with concrete evidence tags, hobbies, Big Five psychological traits, public dating card, and deep reading logs. Followed by the directory of **26 Real People**. |
-| **1:04 - 1:49** | **Part 2: The Rankings** | Rankings (`#/rankings`, `#/rankings/p_brian_chesky`, `#/rankings/p_lex_fridman`) | **Who Fits Each Person Best**: The interactive 26×26 Fit Matrix Heatmap (676 candidate pairings). Deep dive into **Brian Chesky's ranked matches** (#1 Whitney Wolfe Herd at 97% mutual score) and **Lex Fridman's ranked matches** (#1 Payal Kadakia at 98%). Transparent formula breakdown. |
-| **1:49 - 2:29** | **Part 3: Agents Dating On Their Behalf** | Date Theatre (`#/dates`, `#/d/d_brian_whitney`) | **Live 3-Act Date Simulation**: Continental Club patio venue selection, Act I arrival & icebreakers, Act II deep values & vulnerability probing, and confidential post-date debrief reports (6-metric radar, dealbreakers, mutual 2nd date: YES). |
-| **2:29 - 2:43** | **Part 4: System Architecture & Ingestion** | Add Page (`#/add`) & Live Mode | **Dual Spaces & Live Ingestion**: Single and bulk profile ingestion via LinkedIn + Instagram handles, real-time scraping fallback pipeline, and live SSE event stream. Concluding summary. |
-
-
----
-
 ## 📄 License
 MIT License. Built for the Agentic Dating Benchmark Challenge.
