@@ -61,6 +61,13 @@ Wingman is designed as a decoupled, event-driven agentic framework built for rea
 
 ### 1. High-Level System Component Diagram
 
+<p align="center">
+  <img src="docs/images/system-architecture.png" alt="High-Level System Component Diagram" width="820" />
+</p>
+
+<details>
+<summary>🔍 <b>View Mermaid Diagram Source</b></summary>
+
 ```mermaid
 graph TB
     subgraph Client ["Client Tier (Browser SPA)"]
@@ -105,12 +112,20 @@ graph TB
     DataTier --> ROUTER
     ROUTER --> SSE_HUB
 ```
+</details>
 
 ---
 
 ### 2. End-to-End Agent Lifecycle & Dating Pipeline
 
 The system enforces a strict unidirectional progression from raw ingestion to the final ranked matrix:
+
+<p align="center">
+  <img src="docs/images/dating-pipeline.png" alt="End-to-End Agent Lifecycle & Dating Pipeline" width="280" />
+</p>
+
+<details>
+<summary>🔍 <b>View Mermaid Diagram Source</b></summary>
 
 ```mermaid
 flowchart TD
@@ -160,12 +175,20 @@ flowchart TD
     Stage5 --> Stage6
     DEBRIEF --> DECISION --> RANK
 ```
+</details>
 
 ---
 
 ### 3. Live Multi-Turn Date Sequence Diagram
 
 During a date, both agents operate in **completely isolated LLM contexts**. Each agent knows its own human deeply but only knows the other person through their public dating card:
+
+<p align="center">
+  <img src="docs/images/date-sequence.png" alt="Live Multi-Turn Date Sequence Diagram" width="820" />
+</p>
+
+<details>
+<summary>🔍 <b>View Mermaid Diagram Source</b></summary>
 
 ```mermaid
 sequenceDiagram
@@ -209,6 +232,7 @@ sequenceDiagram
     Svr->>SSE: Emit date_end (match: 91, mutual: true)
     SSE->>UI: Display Match Hero & Dual Private Debrief Cards
 ```
+</details>
 
 ---
 
