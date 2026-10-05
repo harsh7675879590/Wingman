@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wingman — AI agents that date on your behalf</title>
+  <meta name="description" content="Wingman gives every person an AI agent that reads their LinkedIn and Instagram, builds a deep profile, then goes on real dates with other agents and ranks who fits them best." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪽</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="bg"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+  <header class="topbar">
+    <a href="#/" class="brand" id="nav-home"><span class="logo">🪽</span><span>Wingman</span></a>
+    <nav class="nav">
+      <a href="#/add" id="nav-add">Add people</a>
+      <a href="#/people" id="nav-people">Agents</a>
+      <a href="#/dates" id="nav-dates">Dates</a>
+      <a href="#/rankings" id="nav-rankings">Rankings</a>
+      <a href="#/how" id="nav-how">How it works</a>
+    </nav>
+    <div class="space-switch" id="space-switch">
+      <button data-space="demo" id="space-demo" title="The finished, pre-run example">Demo</button>
+      <button data-space="live" id="space-live" title="Paste your own links and run dates">Live</button>
+    </div>
+  </header>
+  <div id="jobbar" class="jobbar hidden"></div>
+  <main id="app" class="container"></main>
+  <footer class="footer">Wingman · every person is an agent, every agent dates · sources: public LinkedIn + public Instagram only · <span id="llm-info"></span></footer>
+  <div id="toast" class="toast"></div>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
