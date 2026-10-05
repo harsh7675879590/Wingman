@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import fs from 'fs';
+import { fileURLToPath } from 'url';
 import { load, save, replace, bus, uid, ROOT, MEDIA_DIR, SEED_DIR } from './lib/db.js';
 import { analyzePerson } from './lib/analyze.js';
 import { runRound, runDate, rankingFor, eligible } from './lib/dating.js';
@@ -217,5 +218,10 @@ app.get('/api/:space/events', (req, res) => {
 app.get('*', (req, res) => res.sendFile(path.join(ROOT, 'public', 'index.html')));
 
 const PORT = Number(process.env.PORT || 3000);
-fs.mkdirSync(SEED_DIR, { recursive: true });
-app.listen(PORT, () => console.log(`Wingman running on http://localhost:${PORT}  (LLM: ${llmInfo.provider}/${llmInfo.model}, Apify: ${process.env.APIFY_TOKEN ? 'on' : 'off'})`));
+const isMain = process.argv[1] && (process.argv[1].endsWith('server.js') || process.argv[1] === fileURLToPath(import.meta.url));
+if (isMain && !process.env.VERCEL) {
+  try { fs.mkdirSync(SEED_DIR, { recursive: true }); } catch {}
+  app.listen(PORT, () => console.log(`Wingman running on http://localhost:${PORT}  (LLM: ${llmInfo.provider}/${llmInfo.model}, Apify: ${process.env.APIFY_TOKEN ? 'on' : 'off'})`));
+}
+
+export default app;
