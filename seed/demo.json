@@ -2,7 +2,7 @@
   "people": {
     "p_brian_chesky": {
       "id": "p_brian_chesky",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Brian Chesky",
       "gender": "man",
@@ -241,52 +241,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Brian Chesky — Co-founder & CEO at Airbnb · Industrial Designer",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @bchesky, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] RISD Bachelor of Fine Arts in Industrial Design; Co-founder and CEO of Airbnb since 2008.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Photos of Golden Retriever Sophie, RISD alumni gatherings, and historical architectural visits.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Frequent posts showcasing retro hospitality items, sketches, and hockey memorabilia.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Writes passionately about founder-led design and long-term craft over corporate bloat.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Casual collegiate aesthetic: crewneck sweaters, clean sneakers, bright daylight studio shots.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 4 needs, 4 hobbies, 3 interests. Confidence 94%.",
           "kind": "done"
         }
@@ -294,7 +294,7 @@
     },
     "p_whitney_wolfe_herd": {
       "id": "p_whitney_wolfe_herd",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Whitney Wolfe Herd",
       "gender": "woman",
@@ -513,52 +513,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Whitney Wolfe Herd — Founder & Executive Chair at Bumble",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @whitney, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] SMU graduate; Founder of Bumble; youngest female founder to IPO on NASDAQ.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Photos of Austin outdoor life: horses, lake days, and family dinners with kids.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Strong theme of yellow branding, optimism, and mental wellness advocacy.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Articles focusing on digital safety, equal partnership, and anti-harassment legislation.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Natural warmth, Texas casual elegance, boots, open skies, and genuine unposed laughter.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -566,7 +566,7 @@
     },
     "p_alexis_ohanian": {
       "id": "p_alexis_ohanian",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Alexis Ohanian",
       "gender": "man",
@@ -785,52 +785,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Alexis Ohanian — Founder @ Seven Seven Six · Co-Founder @ Reddit",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @alexisohanian, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] University of Virginia alum; Co-founder Reddit; Founder of Seven Seven Six venture firm.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Legendary Sunday pancake art posts for his daughter Olympia.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Devoted coverage of Angel City FC and women’s professional soccer.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Focus on modern parental leave, climate tech, and cultural infrastructure.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Playful dad life, sports cards, gym sessions, sunny Florida outdoor pool days.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 95%.",
           "kind": "done"
         }
@@ -838,7 +838,7 @@
     },
     "p_sara_blakely": {
       "id": "p_sara_blakely",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Sara Blakely",
       "gender": "woman",
@@ -1057,52 +1057,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Sara Blakely — Founder @ SPANX & Sneex · Entrepreneur",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @sarablakely, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Florida State graduate; Bootstrapped Spanx with door-to-door fax machine sales background.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Hilarious candid videos dancing, spilling coffee, and laughing at life.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Constant appearances of her vintage red lucky backpack.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Keynotes on embracing failure at the dinner table and normalizing setbacks.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Bright colors, vibrant smiles, goofy hats, and joyful family moments.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -1110,7 +1110,7 @@
     },
     "p_gary_vaynerchuk": {
       "id": "p_gary_vaynerchuk",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Gary Vaynerchuk",
       "gender": "man",
@@ -1329,52 +1329,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Gary Vaynerchuk — Chairman @ VaynerX · CEO @ VaynerMedia · Creator",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @garyvee, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Mount Ida College alum; grew Wine Library; CEO of VaynerMedia with 1,500+ employees.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Weekend garage sale flipping videos — genuinely stoked over a $2 vintage mug.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Lifelong, emotional dedication to the New York Jets football team.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Focus on empathy in leadership, kindness as ROI, and modern attention economics.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Black tees, dad sneakers, sports jerseys, energetic street walking in Manhattan.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -1382,7 +1382,7 @@
     },
     "p_jessica_alba": {
       "id": "p_jessica_alba",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Jessica Alba",
       "gender": "woman",
@@ -1601,52 +1601,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Jessica Alba — Founder @ The Honest Company · Actress · Producer",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @jessicaalba, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Founder of The Honest Company; driving clean beauty and baby products since 2011.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Vibrant cooking videos: homemade guacamole, slow-cooked carnitas, and fresh garden herbs.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Regular tennis and Pilates sessions with friends.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Focus on clean formulation standards, supply chain transparency, and female leadership.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] California sun, natural beauty, linen shirts, family game nights, and earthy interiors.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 95%.",
           "kind": "done"
         }
@@ -1654,7 +1654,7 @@
     },
     "p_tim_ferriss": {
       "id": "p_tim_ferriss",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Tim Ferriss",
       "gender": "man",
@@ -1873,52 +1873,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Tim Ferriss — Author @ 4-Hour Workweek · Podcast Host · Investor",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @timferriss, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Princeton East Asian Studies alum; author of The 4-Hour series; host of The Tim Ferriss Show.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Endearing photos of his rescue dog Molly on wilderness trails.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Meditative tea ceremonies, handwritten journal entries, and Kyudo archery.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Significant philanthropic contributions to psychedelic science and mental health research.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Earthy flannel shirts, pocket notebooks, quiet nature sanctuaries, library bookshelves.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -1926,7 +1926,7 @@
     },
     "p_melanie_perkins": {
       "id": "p_melanie_perkins",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Melanie Perkins",
       "gender": "woman",
@@ -2145,52 +2145,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Melanie Perkins — Co-founder & CEO at Canva",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @melaniecanva, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] University of Western Australia; Co-founder of Fusion Yearbooks and Canva.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Kitesurfing adventures across Western Australia and tropical islands.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Team celebrations with crazy costumes and cardboard creative props.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Dedicated focus on the Two-Step Plan: build one of the world’s most valuable companies, then give it away to solve global poverty.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Casual linen, beach hair, open ocean backdrops, warm smiles, unpretentious team spirit.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 95%.",
           "kind": "done"
         }
@@ -2198,7 +2198,7 @@
     },
     "p_marques_brownlee": {
       "id": "p_marques_brownlee",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Marques Brownlee",
       "gender": "man",
@@ -2417,52 +2417,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Marques Brownlee — Creator @ MKBHD · Professional Ultimate Frisbee Player",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @mkbhd, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Stevens Institute of Technology Business & Information Systems graduate.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Professional Ultimate Frisbee action shots competing for New York Empire.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Clean matte black studio gear, electric vehicle road tests, and macro lens cinematography.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Discussions on ethical media production, independent journalism, and hardware design.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Sleek black and red color palette, athletic sportswear, clean minimal framing.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -2470,7 +2470,7 @@
     },
     "p_ijustine": {
       "id": "p_ijustine",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Justine Ezarik",
       "gender": "woman",
@@ -2689,52 +2689,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Justine Ezarik — Creator @ iJustine · Author · Host · Gamer",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @ijustine, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281145,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881145,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Pittsburgh Technical Institute graduate in graphic design and multimedia.",
           "kind": "note"
         },
         {
-          "at": 1791158481145,
+          "at": 1791158489630,
           "msg": "[Instagram] Unboxing retro gaming consoles, Apple gear, and drone adventures.",
           "kind": "note"
         },
         {
-          "at": 1791162081145,
+          "at": 1791162089630,
           "msg": "[Instagram] Adorable rescue dogs bundled in cozy sweaters.",
           "kind": "note"
         },
         {
-          "at": 1791165681145,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Keynotes on digital video evolution, longevity in creator economy, and women in tech.",
           "kind": "note"
         },
         {
-          "at": 1791169281145,
+          "at": 1791169289630,
           "msg": "[Photos] Bright upbeat lighting, gaming battlestations, dog cuddles, sunny LA backyard.",
           "kind": "note"
         },
         {
-          "at": 1791176481145,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -2742,7 +2742,7 @@
     },
     "p_lex_fridman": {
       "id": "p_lex_fridman",
-      "createdAt": 1790751681145,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Lex Fridman",
       "gender": "man",
@@ -2961,52 +2961,52 @@
       },
       "log": [
         {
-          "at": 1791140481145,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081145,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Lex Fridman — Research Scientist @ MIT · Host @ Lex Fridman Podcast",
           "kind": "ok"
         },
         {
-          "at": 1791147681145,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @lexfridman, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Drexel BS, MS, PhD in Electrical and Computer Engineering; MIT research scientist.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Brazilian Jiu-Jitsu training photos (black belt) and judo throws.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Playing classical and folk acoustic guitar in quiet rooms.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Academic papers on autonomous vehicles, human-robot interaction, and machine learning.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Trademark black suit, slim tie, intense eyes, martial arts gis, solo guitar sessions.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -3014,7 +3014,7 @@
     },
     "p_payal_kadakia": {
       "id": "p_payal_kadakia",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Payal Kadakia",
       "gender": "woman",
@@ -3233,52 +3233,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Payal Kadakia — Founder @ ClassPass · Artistic Director @ The Sa Dance Company",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @payal, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] MIT BS in Operations Research and Economics; Founder of ClassPass and Sa Dance Company.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Magnificent dance performance videos in traditional Indian classical attire.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Family celebrations, vibrant Diwali decor, and motherhood milestones.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Articles on goal-setting, artistic discipline in business, and overcoming entrepreneurial rejection.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Dynamic dance poses, elegant jewel tones, bright NYC studios, radiant smiles.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -3286,7 +3286,7 @@
     },
     "p_austen_allred": {
       "id": "p_austen_allred",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Austen Allred",
       "gender": "man",
@@ -3505,52 +3505,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Austen Allred — Founder & CEO @ BloomTech",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @austen, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Founder & CEO of BloomTech; pioneer of income share agreements and technical training.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Snowboarding Utah’s steepest powder and family mountain hikes.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Backyard BBQ brisket cooks on wood-fired smokers.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Commentary on workforce development, economic mobility, and apprenticeship models.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Utah mountain backdrops, winter coats, ski goggles, family porch moments.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 94%.",
           "kind": "done"
         }
@@ -3558,7 +3558,7 @@
     },
     "p_katrina_lake": {
       "id": "p_katrina_lake",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Katrina Lake",
       "gender": "woman",
@@ -3777,52 +3777,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Katrina Lake — Founder & Board Member @ Stitch Fix · Investor",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @katrinalake, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Stanford BA in Economics; Harvard Business School MBA; Founder of Stitch Fix.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Running across the Golden Gate Bridge and Tahoe ski weekends.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Unpretentious family adventures, cooking dinners, and camping trips.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Thought leadership on algorithmic retail, working motherhood, and board diversity.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Natural California chic, trail running shoes, ski jackets, warm family smiles.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 95%.",
           "kind": "done"
         }
@@ -3830,7 +3830,7 @@
     },
     "p_pieter_levels": {
       "id": "p_pieter_levels",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Pieter Levels",
       "gender": "man",
@@ -4049,52 +4049,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Pieter Levels — Founder @ Nomad List, Remote OK & Photo AI · Solo Developer",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @levelsio, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] University of Amsterdam Master of Science in Business Administration.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Rooftop pool workspaces, cyberpunk city nights in Tokyo and Bangkok.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Synthesizer setups, DJ decks, and electronic music tracks in progress.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Real-time revenue dashboards, minimalism in tech stacks, and remote work advocacy.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Backpacking life, laptop in cafes, neon lights, minimal casual tees, street food stalls.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 95%.",
           "kind": "done"
         }
@@ -4102,7 +4102,7 @@
     },
     "p_reshma_saujani": {
       "id": "p_reshma_saujani",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Reshma Saujani",
       "gender": "woman",
@@ -4321,52 +4321,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Reshma Saujani — Founder @ Girls Who Code & Moms First · Author",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @reshmasaujani, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] University of Illinois, Harvard Kennedy School, Yale Law School graduate.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Family celebrations, Diwali sweets, and candid NYC parenting.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Morning runs in Central Park and yoga sessions.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Legislative campaigns for child care infrastructure and equal pay.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Vibrant jewel-tone blazers, Indian traditional attire, NYC streets, warm family hugs.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -4374,7 +4374,7 @@
     },
     "p_dharmesh_shah": {
       "id": "p_dharmesh_shah",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Dharmesh Shah",
       "gender": "man",
@@ -4593,52 +4593,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Dharmesh Shah — Co-Founder & CTO @ HubSpot · AI Builder",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @dharmesh, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] MIT MS in Management of Technology; BS in Computer Science; Co-founder and CTO HubSpot.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Whimsical behind-the-scenes coding photos and humorous AI experiments.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Family moments with his son and calm Boston weekends.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Iconic HubSpot Culture Code presentation with over 6 million views.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Casual hoodies, dark mode IDE monitors, gentle smiles, book stacks.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -4646,7 +4646,7 @@
     },
     "p_gwyneth_paltrow": {
       "id": "p_gwyneth_paltrow",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Gwyneth Paltrow",
       "gender": "woman",
@@ -4865,52 +4865,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Gwyneth Paltrow — Founder & CEO @ goop · Oscar-winning Actress",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @gwynethpaltrow, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Founder & CEO of goop since 2008; driving holistic health and clean beauty.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Unfiltered morning routine videos with no makeup, making bone broth and matcha.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Seasonal cooking in coastal Hamptons garden kitchens.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Focus on clean formulations, intimate wellness normalization, and direct-to-consumer retail.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Natural coastal light, barefoot elegance, linen aprons, fresh garden vegetables.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 95%.",
           "kind": "done"
         }
@@ -4918,7 +4918,7 @@
     },
     "p_andrew_ng": {
       "id": "p_andrew_ng",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Andrew Ng",
       "gender": "man",
@@ -5137,52 +5137,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Andrew Ng — Founder @ DeepLearning.AI · Managing General Partner @ AI Fund",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @andrew_y_ng, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Carnegie Mellon, MIT, UC Berkeley PhD; Stanford AI Lab Director; Coursera Co-founder.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Photos with family and young children on nature trails.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Morning espresso cups next to machine learning research papers.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Weekly The Batch newsletter dissecting practical AI developments.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Blue button-downs, warm gentle eyes, university lecture halls, family park strolls.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -5190,7 +5190,7 @@
     },
     "p_arianna_huffington": {
       "id": "p_arianna_huffington",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Arianna Huffington",
       "gender": "woman",
@@ -5409,52 +5409,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Arianna Huffington — Founder & CEO @ Thrive Global · Founder @ Huffington Post",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @ariannahuff, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Cambridge University MA in Economics; President of Cambridge Union; 15x Author.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] Bedtime wind-down rituals, books by the bedside, and cozy pajamas.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Greek holiday celebrations with family in Athens and coastal islands.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Keynotes on the Sleep Revolution and ending the delusion of burnout as a badge of honor.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Greek jewelry, warm smiles, classic blazers, Mediterranean seaside feasts.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489630,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -5462,7 +5462,7 @@
     },
     "p_kevin_systrom": {
       "id": "p_kevin_systrom",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689630,
       "status": "ready",
       "name": "Kevin Systrom",
       "gender": "man",
@@ -5681,52 +5681,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489630,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089630,
           "msg": "LinkedIn read via public_html: Kevin Systrom — Co-founder @ Instagram & Artifact · Investor",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689630,
           "msg": "Instagram read via web_profile_info: @kevin, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289630,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889630,
           "msg": "[LinkedIn] Stanford Management Science & Engineering; Mayfield Fellow; Instagram Co-founder & CEO.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489630,
           "msg": "[Instagram] High-altitude cycling across Passo dello Stelvio and the Italian Dolomites.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089630,
           "msg": "[Instagram] Stunning 35mm Leica street photography and portraits.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689630,
           "msg": "[LinkedIn] Writing on machine learning recommendation architectures and clean user experience.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289630,
           "msg": "[Photos] Cycling jerseys, vintage cameras, flour-dusted pasta boards, espresso cups.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489631,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -5734,7 +5734,7 @@
     },
     "p_emily_weiss": {
       "id": "p_emily_weiss",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689631,
       "status": "ready",
       "name": "Emily Weiss",
       "gender": "woman",
@@ -5953,52 +5953,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489631,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089631,
           "msg": "LinkedIn read via public_html: Emily Weiss — Founder & Board Member @ Glossier · Author of Into The Gloss",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689631,
           "msg": "Instagram read via web_profile_info: @emilywweiss, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289631,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889631,
           "msg": "[LinkedIn] NYU Studio Art graduate; Vogue and W Magazine fashion editorial background.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489631,
           "msg": "[Instagram] Downtown NYC lifestyle: gallery openings, floral bouquets, and cozy loft corners.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089631,
           "msg": "[Instagram] Motherhood moments with her daughter and relaxed weekends upstate.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689631,
           "msg": "[LinkedIn] Thought pieces on community-first commerce and reimagining legacy retail.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289631,
           "msg": "[Photos] Dewy skin, soft natural daylight, minimalist typography, vintage ceramics.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489631,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 95%.",
           "kind": "done"
         }
@@ -6006,7 +6006,7 @@
     },
     "p_rand_fishkin": {
       "id": "p_rand_fishkin",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689631,
       "status": "ready",
       "name": "Rand Fishkin",
       "gender": "man",
@@ -6225,52 +6225,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489631,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089631,
           "msg": "LinkedIn read via public_html: Rand Fishkin — Co-Founder & CEO @ SparkToro · Author of Lost and Founder",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689631,
           "msg": "Instagram read via web_profile_info: @randderuiter, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289631,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889631,
           "msg": "[LinkedIn] University of Washington alum; Founder of Moz and SparkToro; Whiteboard Friday creator.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489631,
           "msg": "[Instagram] Complex Euro-style board games (Terraforming Mars, Wingspan) laid out on game tables.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089631,
           "msg": "[Instagram] Italian pasta cooking adventures and scenic travels across Europe.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689631,
           "msg": "[LinkedIn] Candid, transparent analyses of digital monopolies, marketing truth, and founder mental health.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289631,
           "msg": "[Photos] Iconic mustache, Seattle rain jackets, board game meeples, warm home kitchen smiles.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489631,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -6278,7 +6278,7 @@
     },
     "p_sallie_krawcheck": {
       "id": "p_sallie_krawcheck",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689631,
       "status": "ready",
       "name": "Sallie Krawcheck",
       "gender": "woman",
@@ -6497,52 +6497,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489631,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089631,
           "msg": "LinkedIn read via public_html: Sallie Krawcheck — Founder & CEO @ Ellevest · Former CEO @ Merrill Lynch & Smith Barney",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689631,
           "msg": "Instagram read via web_profile_info: @sallie.krawcheck, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289631,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889631,
           "msg": "[LinkedIn] UNC Chapel Hill; Columbia Business School MBA; Former CEO Merrill Lynch Wealth Management.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489631,
           "msg": "[Instagram] Central Park runs, family graduations, and rescue pet photos.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089631,
           "msg": "[Instagram] Hilarious candid videos debunking financial jargon with Southern quips.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689631,
           "msg": "[LinkedIn] Relentless focus on women’s financial autonomy, closing the wage gap, and ethical leadership.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289631,
           "msg": "[Photos] Classic NYC chic, bright blazers, sunny park benches, genuine broad smiles.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489631,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -6550,7 +6550,7 @@
     },
     "p_mark_zuckerberg": {
       "id": "p_mark_zuckerberg",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689631,
       "status": "ready",
       "name": "Mark Zuckerberg",
       "gender": "man",
@@ -6769,52 +6769,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489631,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089631,
           "msg": "LinkedIn read via public_html: Mark Zuckerberg — Founder & CEO @ Meta",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689631,
           "msg": "Instagram read via web_profile_info: @zuck, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289631,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889631,
           "msg": "[LinkedIn] Harvard University alum; Founder and CEO of Meta since 2004.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489631,
           "msg": "[Instagram] Brazilian Jiu-Jitsu tournament gold and silver medal photos.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089631,
           "msg": "[Instagram] Hydrofoil surfing in open Hawaiian waters and wakeboarding.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689631,
           "msg": "[Instagram] Raising Wagyu cattle on Kauai and smoking backyard brisket.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289631,
           "msg": "[Photos] Oversized streetwear tees, curls, gold chains, foil boards, training mats, family smiles.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489631,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -6822,7 +6822,7 @@
     },
     "p_tan_france": {
       "id": "p_tan_france",
-      "createdAt": 1790751681146,
+      "createdAt": 1790751689631,
       "status": "ready",
       "name": "Tan France",
       "gender": "man",
@@ -7041,52 +7041,52 @@
       },
       "log": [
         {
-          "at": 1791140481146,
+          "at": 1791140489631,
           "msg": "Agent assigned. Starting to read its person — only LinkedIn + Instagram allowed.",
           "kind": "start"
         },
         {
-          "at": 1791144081146,
+          "at": 1791144089631,
           "msg": "LinkedIn read via public_html: Tan France — Fashion Designer · Author · Host @ Queer Eye & Next In Fashion",
           "kind": "ok"
         },
         {
-          "at": 1791147681146,
+          "at": 1791147689631,
           "msg": "Instagram read via web_profile_info: @tanfrance, 248 posts scanned",
           "kind": "ok"
         },
         {
-          "at": 1791151281146,
+          "at": 1791151289631,
           "msg": "Studied 6 photos + profile picture.",
           "kind": "ok"
         },
         {
-          "at": 1791154881146,
+          "at": 1791154889631,
           "msg": "[LinkedIn] Doncaster College fashion graduate; fashion buyer and designer for major apparel lines.",
           "kind": "note"
         },
         {
-          "at": 1791158481146,
+          "at": 1791158489631,
           "msg": "[Instagram] Impeccable tailoring, hair styling, and cozy mountain family life in Salt Lake City.",
           "kind": "note"
         },
         {
-          "at": 1791162081146,
+          "at": 1791162089631,
           "msg": "[Instagram] Baking British pies, scones, and South Asian spiced delicacies.",
           "kind": "note"
         },
         {
-          "at": 1791165681146,
+          "at": 1791165689631,
           "msg": "[LinkedIn] Advocacy for diverse representation in entertainment and garment worker ethics.",
           "kind": "note"
         },
         {
-          "at": 1791169281146,
+          "at": 1791169289631,
           "msg": "[Photos] Silver hair, tailored coats, gorgeous mountain home architecture, warm embraces.",
           "kind": "note"
         },
         {
-          "at": 1791176481146,
+          "at": 1791176489631,
           "msg": "Profile complete — 3 needs, 3 hobbies, 3 interests. Confidence 96%.",
           "kind": "done"
         }
@@ -7099,8 +7099,8 @@
       "a": "p_brian_chesky",
       "b": "p_whitney_wolfe_herd",
       "status": "done",
-      "createdAt": 1791097281154,
-      "endedAt": 1791100881154,
+      "createdAt": 1791097289643,
+      "endedAt": 1791100889643,
       "venue": {
         "venue": "The Continental Club & Garden Patio, Austin",
         "activity": "artisan cocktails & discussing design-led culture",
@@ -7108,103 +7108,103 @@
       },
       "transcript": [
         {
-          "at": 1791097281154,
+          "at": 1791097289643,
           "speaker": "p_brian_chesky",
           "kind": "invite",
           "text": "Hey Whitney! Given how much thought we both put into how people connect and feel safe in new spaces, want to grab a quiet drink on the patio at The Continental Club?"
         },
         {
-          "at": 1791097341154,
+          "at": 1791097349643,
           "speaker": "p_whitney_wolfe_herd",
           "kind": "msg",
           "text": "I would love that, Brian! Austin patios at sunset are my favorite sanctuary after a long day of meetings. Let us do it."
         },
         {
-          "at": 1791097401154,
+          "at": 1791097409643,
           "speaker": null,
           "kind": "scene",
           "text": "Act I · Arrival & first impressions"
         },
         {
-          "at": 1791097461154,
+          "at": 1791097469643,
           "speaker": "p_brian_chesky",
           "kind": "msg",
           "text": "*smiles warmly and pulls out a chair* The acoustic warmth of this courtyard is incredible. You can actually hear the person across from you without shouting."
         },
         {
-          "at": 1791097521154,
+          "at": 1791097529643,
           "speaker": "p_whitney_wolfe_herd",
           "kind": "msg",
           "text": "*laughs softly* That is such an industrial designer observation, Brian! But you are completely right. Acoustics dictate whether a conversation feels intimate or exhausting."
         },
         {
-          "at": 1791097581154,
+          "at": 1791097589643,
           "speaker": "p_brian_chesky",
           "kind": "msg",
           "text": "Guilty as charged. I look at chair ergonomics before I even look at the menu. How was your week on the ranch?"
         },
         {
-          "at": 1791097641154,
+          "at": 1791097649643,
           "speaker": "p_whitney_wolfe_herd",
           "kind": "msg",
           "text": "Grounding. There is nothing like mucking out horse stalls to remind you that title and net worth do not impress a horse in the slightest."
         },
         {
-          "at": 1791097701154,
+          "at": 1791097709643,
           "speaker": null,
           "kind": "scene",
           "text": "Act II · Getting real"
         },
         {
-          "at": 1791097761154,
+          "at": 1791097769643,
           "speaker": "p_brian_chesky",
           "kind": "msg",
           "text": "I love that so much. For me, taking my Golden Retriever Sophie on walks is the only time my phone stays in my pocket. When you took Bumble public holding your son, that was iconic. How do you protect that family peace?"
         },
         {
-          "at": 1791097821154,
+          "at": 1791097829643,
           "speaker": "p_whitney_wolfe_herd",
           "kind": "msg",
           "text": "By realizing that if you sacrifice your private life for the public scoreboard, you lose twice. In dating, I need a partner who doesn’t compete with my calendar, but builds a quiet haven with me. What is your biggest non-negotiable?"
         },
         {
-          "at": 1791097881154,
+          "at": 1791097889643,
           "speaker": "p_brian_chesky",
           "kind": "msg",
           "text": "Someone who cares deeply about their own craft. I get energized when a partner gets lost in something they love—whether it is training horses, building a product, or painting. Craft is attractive."
         },
         {
-          "at": 1791097941154,
+          "at": 1791097949643,
           "speaker": "p_whitney_wolfe_herd",
           "kind": "msg",
           "text": "Yes! And vulnerability. In tech, everyone wears armor. On a date, I want to know what kept you awake at 3 AM three years ago, not your quarterly projections."
         },
         {
-          "at": 1791098001154,
+          "at": 1791098009643,
           "speaker": null,
           "kind": "scene",
           "text": "Act III · The wrap-up"
         },
         {
-          "at": 1791098061154,
+          "at": 1791098069643,
           "speaker": "p_brian_chesky",
           "kind": "msg",
           "text": "*grins* Three years ago I was wondering if travel would ever come back. Sitting here tonight, I am reminded that the urge to explore and meet real people is invincible."
         },
         {
-          "at": 1791098121154,
+          "at": 1791098129643,
           "speaker": "p_whitney_wolfe_herd",
           "kind": "msg",
           "text": "It really is. This flew by, Brian. You are genuinely as thoughtful and funny in person as you are on stage."
         },
         {
-          "at": 1791098181154,
+          "at": 1791098189643,
           "speaker": "p_brian_chesky",
           "kind": "msg",
           "text": "Next time, I am bringing Sophie to Austin and we are doing a trail walk by Lady Bird Lake. I would love to see you again soon."
         },
         {
-          "at": 1791098241154,
+          "at": 1791098249643,
           "speaker": "p_whitney_wolfe_herd",
           "kind": "msg",
           "text": "Deal. Sophie gets VIP treatment at the ranch. Safe travels back to SF!"
@@ -7252,8 +7252,8 @@
       "a": "p_alexis_ohanian",
       "b": "p_sara_blakely",
       "status": "done",
-      "createdAt": 1791097281154,
-      "endedAt": 1791100881154,
+      "createdAt": 1791097289643,
+      "endedAt": 1791100889643,
       "venue": {
         "venue": "The Optimist Oyster Bar, Atlanta",
         "activity": "fresh oysters, waffle experiments & trading startup war stories",
@@ -7261,103 +7261,103 @@
       },
       "transcript": [
         {
-          "at": 1791097281154,
+          "at": 1791097289643,
           "speaker": "p_alexis_ohanian",
           "kind": "invite",
           "text": "Sara! As a self-proclaimed waffle artist and huge fan of anyone who refuses to take corporate life seriously, want to grab oysters and trade war stories in Atlanta?"
         },
         {
-          "at": 1791097341154,
+          "at": 1791097349643,
           "speaker": "p_sara_blakely",
           "kind": "msg",
           "text": "Alexis, only if you bring proof of these alleged pancake art masterpieces! I am in. The Optimist has the best oysters in town."
         },
         {
-          "at": 1791097401154,
+          "at": 1791097409643,
           "speaker": null,
           "kind": "scene",
           "text": "Act I · Arrival & first impressions"
         },
         {
-          "at": 1791097461154,
+          "at": 1791097469643,
           "speaker": "p_alexis_ohanian",
           "kind": "msg",
           "text": "*pulls out phone and beams* Behold: a three-color batter rendition of Sonic the Hedgehog. Took me forty-five minutes and three burnt attempts."
         },
         {
-          "at": 1791097521154,
+          "at": 1791097529643,
           "speaker": "p_sara_blakely",
           "kind": "msg",
           "text": "*bursts into full-bodied laughter* Alexis! That is sheer dedication! My kids would demand that every Sunday. I love anyone who commits to that level of silliness."
         },
         {
-          "at": 1791097581154,
+          "at": 1791097589643,
           "speaker": "p_alexis_ohanian",
           "kind": "msg",
           "text": "Silliness is underrated. The world has too many serious people in gray suits trying to look important. Is that the famous red backpack under your chair?"
         },
         {
-          "at": 1791097641154,
+          "at": 1791097649643,
           "speaker": "p_sara_blakely",
           "kind": "msg",
           "text": "You know it is! Twenty-four years, countless boardrooms, and people still look at me sideways. But it keeps me honest."
         },
         {
-          "at": 1791097701154,
+          "at": 1791097709643,
           "speaker": null,
           "kind": "scene",
           "text": "Act II · Getting real"
         },
         {
-          "at": 1791097761154,
+          "at": 1791097769643,
           "speaker": "p_alexis_ohanian",
           "kind": "msg",
           "text": "That reminds me of Reddit in 2005. Everyone told us an internet message board was worthless. When you cut the feet off those pantyhose, did you ever doubt it?"
         },
         {
-          "at": 1791097821154,
+          "at": 1791097829643,
           "speaker": "p_sara_blakely",
           "kind": "msg",
           "text": "Every single day! But my dad used to ask us at the dinner table: \"What did you fail at today?\" If we did not fail, he was disappointed. Failure was not the outcome; failure was not trying."
         },
         {
-          "at": 1791097881154,
+          "at": 1791097889643,
           "speaker": "p_alexis_ohanian",
           "kind": "msg",
           "text": "Man, that hits home. That is exactly what I want to teach Olympia. That is why I invested in Angel City FC and women’s sports—everyone said it would lose money. Seeing 22,000 fans roaring proved the cynics wrong."
         },
         {
-          "at": 1791097941154,
+          "at": 1791097949643,
           "speaker": "p_sara_blakely",
           "kind": "msg",
           "text": "And that is why you are such a breath of fresh air. You put your money and heart where your values are. In a partner, I need that courage and that big belly laugh."
         },
         {
-          "at": 1791098001154,
+          "at": 1791098009643,
           "speaker": null,
           "kind": "scene",
           "text": "Act III · The wrap-up"
         },
         {
-          "at": 1791098061154,
+          "at": 1791098069643,
           "speaker": "p_alexis_ohanian",
           "kind": "msg",
           "text": "My face actually hurts from smiling. This was the most fun dinner I have had in months."
         },
         {
-          "at": 1791098121154,
+          "at": 1791098129643,
           "speaker": "p_sara_blakely",
           "kind": "msg",
           "text": "Same here! Next time, breakfast challenge: your Sonic pancake versus my homemade southern biscuits."
         },
         {
-          "at": 1791098181154,
+          "at": 1791098189643,
           "speaker": "p_alexis_ohanian",
           "kind": "msg",
           "text": "Challenge accepted! Count me in for round two, Sara."
         },
         {
-          "at": 1791098241154,
+          "at": 1791098249643,
           "speaker": "p_sara_blakely",
           "kind": "msg",
           "text": "You got a deal, pancake king. Safe flight back to Florida!"
@@ -7405,8 +7405,8 @@
       "a": "p_lex_fridman",
       "b": "p_payal_kadakia",
       "status": "done",
-      "createdAt": 1791097281154,
-      "endedAt": 1791100881154,
+      "createdAt": 1791097289643,
+      "endedAt": 1791100889643,
       "venue": {
         "venue": "Lincoln Center Rooftop Garden, New York",
         "activity": "green tea & discussing the spirituality of movement",
@@ -7414,103 +7414,103 @@
       },
       "transcript": [
         {
-          "at": 1791097281154,
+          "at": 1791097289643,
           "speaker": "p_lex_fridman",
           "kind": "invite",
           "text": "Payal, I have spent my life studying the precision of movement in Brazilian Jiu-Jitsu, and your classical dance choreography possesses that same sacred geometry. Would you like to share a cup of green tea overlooking Lincoln Center?"
         },
         {
-          "at": 1791097341154,
+          "at": 1791097349643,
           "speaker": "p_payal_kadakia",
           "kind": "msg",
           "text": "Lex, that is one of the most perceptive invitations I have received. Dance and martial arts are two dialects of the same physical truth. I would love to meet."
         },
         {
-          "at": 1791097401154,
+          "at": 1791097409643,
           "speaker": null,
           "kind": "scene",
           "text": "Act I · Arrival & first impressions"
         },
         {
-          "at": 1791097461154,
+          "at": 1791097469643,
           "speaker": "p_lex_fridman",
           "kind": "msg",
           "text": "*standing in his black suit, bowing slightly with hands clasped* Thank you for meeting me, Payal. The city looks peaceful from up here."
         },
         {
-          "at": 1791097521154,
+          "at": 1791097529643,
           "speaker": "p_payal_kadakia",
           "kind": "msg",
           "text": "*smiles warmly* It really does. And you are wearing the suit! I admire someone who commits completely to their uniform. In dance, our ghungroos—the ankle bells—are our uniform."
         },
         {
-          "at": 1791097581154,
+          "at": 1791097589643,
           "speaker": "p_lex_fridman",
           "kind": "msg",
           "text": "When you tie the bells to your ankles, does your mental state shift immediately?"
         },
         {
-          "at": 1791097641154,
+          "at": 1791097649643,
           "speaker": "p_payal_kadakia",
           "kind": "msg",
           "text": "Instantly. The moment the weight hits your shins, you are not Payal the tech founder; you are a channel for centuries of storytelling. Is that what tying your BJJ black belt feels like?"
         },
         {
-          "at": 1791097701154,
+          "at": 1791097709643,
           "speaker": null,
           "kind": "scene",
           "text": "Act II · Getting real"
         },
         {
-          "at": 1791097761154,
+          "at": 1791097769643,
           "speaker": "p_lex_fridman",
           "kind": "msg",
           "text": "Exactly that. On the mats, there is no room for ego or lies. Physics and gravity keep you honest. But building ClassPass and then writing LifePass—how do you balance that fierce discipline with love and softness?"
         },
         {
-          "at": 1791097821154,
+          "at": 1791097829643,
           "speaker": "p_payal_kadakia",
           "kind": "msg",
           "text": "Discipline IS love, Lex. When you set boundaries and honor your craft, you are loving your future self. But you also need a partner who doesn’t see your ambition as competition. Someone who can hold space for you when the performance ends."
         },
         {
-          "at": 1791097881154,
+          "at": 1791097889643,
           "speaker": "p_lex_fridman",
           "kind": "msg",
           "text": "That is poetic and deeply true. I spend so many hours alone with books, math, or guitar. I sometimes wonder if my capacity for solitude makes me hard to love."
         },
         {
-          "at": 1791097941154,
+          "at": 1791097949643,
           "speaker": "p_payal_kadakia",
           "kind": "msg",
           "text": "*looks at him intently* Depth is never hard to love for the right person. Superficial people find depth intimidating. Artists find depth comforting."
         },
         {
-          "at": 1791098001154,
+          "at": 1791098009643,
           "speaker": null,
           "kind": "scene",
           "text": "Act III · The wrap-up"
         },
         {
-          "at": 1791098061154,
+          "at": 1791098069643,
           "speaker": "p_lex_fridman",
           "kind": "msg",
           "text": "*a rare, gentle smile breaks across his face* You have a gift for seeing through walls, Payal. This conversation has been very meaningful to me."
         },
         {
-          "at": 1791098121154,
+          "at": 1791098129643,
           "speaker": "p_payal_kadakia",
           "kind": "msg",
           "text": "It has been for me too, Lex. Next time you are in New York, come watch a rehearsal with the company. I will teach you a mudra, and you can show me an armbar defense."
         },
         {
-          "at": 1791098181154,
+          "at": 1791098189643,
           "speaker": "p_lex_fridman",
           "kind": "msg",
           "text": "It is a deal. I will practice my footwork in the meantime."
         },
         {
-          "at": 1791098241154,
+          "at": 1791098249643,
           "speaker": "p_payal_kadakia",
           "kind": "msg",
           "text": "Until then, safe travels back to Austin, Lex."
@@ -7558,8 +7558,8 @@
       "a": "p_marques_brownlee",
       "b": "p_ijustine",
       "status": "done",
-      "createdAt": 1791097281154,
-      "endedAt": 1791100881154,
+      "createdAt": 1791097289643,
+      "endedAt": 1791100889643,
       "venue": {
         "venue": "Barcade & Rooftop Lounge, Brooklyn",
         "activity": "retro arcade games, camera rig banter & boba tea",
@@ -7567,103 +7567,103 @@
       },
       "transcript": [
         {
-          "at": 1791097281154,
+          "at": 1791097289643,
           "speaker": "p_marques_brownlee",
           "kind": "invite",
           "text": "Justine! Since we have both spent half our lives reviewing hardware, how about an off-camera evening playing classic arcade Street Fighter and grabbing boba?"
         },
         {
-          "at": 1791097341154,
+          "at": 1791097349643,
           "speaker": "p_ijustine",
           "kind": "msg",
           "text": "Marques! Are you ready to get destroyed in Street Fighter? Challenge accepted. And zero camera talk for the first 30 minutes!"
         },
         {
-          "at": 1791097401154,
+          "at": 1791097409643,
           "speaker": null,
           "kind": "scene",
           "text": "Act I · Arrival & first impressions"
         },
         {
-          "at": 1791097461154,
+          "at": 1791097469643,
           "speaker": "p_marques_brownlee",
           "kind": "msg",
           "text": "*laughs as Justine mashes arcade buttons* That was a clean combo, I have to give it to you. You play Chun-Li like a pro."
         },
         {
-          "at": 1791097521154,
+          "at": 1791097529643,
           "speaker": "p_ijustine",
           "kind": "msg",
           "text": "I told you! Growing up in Pittsburgh, the arcade was life. Look at you in full matte black, even your watch band matches the cabinet trim."
         },
         {
-          "at": 1791097581154,
+          "at": 1791097589643,
           "speaker": "p_marques_brownlee",
           "kind": "msg",
           "text": "Brand consistency is a lifestyle, Justine. How are the dogs doing after the move?"
         },
         {
-          "at": 1791097641154,
+          "at": 1791097649643,
           "speaker": "p_ijustine",
           "kind": "msg",
           "text": "So happy! They have a yard now and spend all day chasing tennis balls. How was your Ultimate tournament last weekend?"
         },
         {
-          "at": 1791097701154,
+          "at": 1791097709643,
           "speaker": null,
           "kind": "scene",
           "text": "Act II · Getting real"
         },
         {
-          "at": 1791097761154,
+          "at": 1791097769643,
           "speaker": "p_marques_brownlee",
           "kind": "msg",
           "text": "Brutal weather, but we pulled out the win. Honestly, running 12 miles on turf every weekend is the only thing that balances out sitting in front of Final Cut Pro."
         },
         {
-          "at": 1791097821154,
+          "at": 1791097829643,
           "speaker": "p_ijustine",
           "kind": "msg",
           "text": "People do not realize how exhausting the creative treadmill is after 15 years. You have to keep a part of your life sacred that is just for you. For me, it is the pups and gaming with friends without recording."
         },
         {
-          "at": 1791097881154,
+          "at": 1791097889643,
           "speaker": "p_marques_brownlee",
           "kind": "msg",
           "text": "Exactly. That is why finding a partner who gets the lifestyle without being consumed by the internet is rare. Someone who has their own passion and does not need constant validation."
         },
         {
-          "at": 1791097941154,
+          "at": 1791097949643,
           "speaker": "p_ijustine",
           "kind": "msg",
           "text": "100%. Someone grounded, reliable, and funny. You have stayed so calm through all these years, Marques. I have never seen you lose your cool."
         },
         {
-          "at": 1791098001154,
+          "at": 1791098009643,
           "speaker": null,
           "kind": "scene",
           "text": "Act III · The wrap-up"
         },
         {
-          "at": 1791098061154,
+          "at": 1791098069643,
           "speaker": "p_marques_brownlee",
           "kind": "msg",
           "text": "I save all my aggression for Ultimate Frisbee defense. This was so relaxed, Justine. Really refreshing to hang out with someone who speaks the same shorthand."
         },
         {
-          "at": 1791098121154,
+          "at": 1791098129643,
           "speaker": "p_ijustine",
           "kind": "msg",
           "text": "It really was! Next time, Mario Kart tournament at my studio. I will even let you play on the matte black controller."
         },
         {
-          "at": 1791098181154,
+          "at": 1791098189643,
           "speaker": "p_marques_brownlee",
           "kind": "msg",
           "text": "I am holding you to that. Great evening, Justine."
         },
         {
-          "at": 1791098241154,
+          "at": 1791098249643,
           "speaker": "p_ijustine",
           "kind": "msg",
           "text": "Goodnight Marques!"
@@ -7711,8 +7711,8 @@
       "a": "p_kevin_systrom",
       "b": "p_emily_weiss",
       "status": "done",
-      "createdAt": 1791097281154,
-      "endedAt": 1791100881154,
+      "createdAt": 1791097289643,
+      "endedAt": 1791100889643,
       "venue": {
         "venue": "Estela & The Drawing Center, Soho, NYC",
         "activity": "art gallery walkthrough, natural wine & small plates",
@@ -7720,97 +7720,97 @@
       },
       "transcript": [
         {
-          "at": 1791097281154,
+          "at": 1791097289643,
           "speaker": "p_kevin_systrom",
           "kind": "invite",
           "text": "Emily, since we both care obsessively about light, framing, and clean composition, would you like to walk through the new exhibition at The Drawing Center and grab small plates at Estela?"
         },
         {
-          "at": 1791097341154,
+          "at": 1791097349643,
           "speaker": "p_emily_weiss",
           "kind": "msg",
           "text": "Kevin, that sounds like an ideal downtown afternoon. Estela’s ricotta dumplings and great minimalist art? Sign me up."
         },
         {
-          "at": 1791097401154,
+          "at": 1791097409643,
           "speaker": null,
           "kind": "scene",
           "text": "Act I · Arrival & first impressions"
         },
         {
-          "at": 1791097461154,
+          "at": 1791097469643,
           "speaker": "p_kevin_systrom",
           "kind": "msg",
           "text": "*holding the gallery door open* Look at how they lit these charcoal sketches. The negative space around the paper does half the storytelling."
         },
         {
-          "at": 1791097521154,
+          "at": 1791097529643,
           "speaker": "p_emily_weiss",
           "kind": "msg",
           "text": "*smiles appreciatively* Most people rush through and look at the marks. You looked at the paper border first. That is the Instagram founder eye."
         },
         {
-          "at": 1791097581154,
+          "at": 1791097589643,
           "speaker": "p_kevin_systrom",
           "kind": "msg",
           "text": "Restraint is always harder than addition. Glossier’s packaging had that exact discipline—stripping away everything until only the essential dewy warmth was left."
         },
         {
-          "at": 1791097641154,
+          "at": 1791097649643,
           "speaker": "p_emily_weiss",
           "kind": "msg",
           "text": "Thank you, Kevin. That was always the goal: giving people permission to feel comfortable in their own skin without layers of mask."
         },
         {
-          "at": 1791097701154,
+          "at": 1791097709643,
           "speaker": null,
           "kind": "scene",
           "text": "Act II · Getting real"
         },
         {
-          "at": 1791097761154,
+          "at": 1791097769643,
           "speaker": "p_kevin_systrom",
           "kind": "msg",
           "text": "Sitting at this corner table with wine... how has stepping back to the board level shifted your daily rhythm? For me, after Instagram, cycling up mountain passes in Italy became my obsession."
         },
         {
-          "at": 1791097821154,
+          "at": 1791097829643,
           "speaker": "p_emily_weiss",
           "kind": "msg",
           "text": "Motherhood completely recalibrated my relationship to time. You realize that true luxury is not building faster; it is being present for the morning light with a cup of coffee. What does cycling do for your mind?"
         },
         {
-          "at": 1791097881154,
+          "at": 1791097889643,
           "speaker": "p_kevin_systrom",
           "kind": "msg",
           "text": "When you are climbing an 8% grade for three hours on the Passo dello Stelvio, there is no past or future. Just breath and rhythm. It resets my taste. Then I come home and make fresh pasta from scratch."
         },
         {
-          "at": 1791097941154,
+          "at": 1791097949643,
           "speaker": "p_emily_weiss",
           "kind": "msg",
           "text": "*laughs softly* Okay, making fresh pasta from scratch in California after cycling the Alps is very romantic, Kevin. That is a serious green flag."
         },
         {
-          "at": 1791098001154,
+          "at": 1791098009643,
           "speaker": null,
           "kind": "scene",
           "text": "Act III · The wrap-up"
         },
         {
-          "at": 1791098061154,
+          "at": 1791098069643,
           "speaker": "p_kevin_systrom",
           "kind": "msg",
           "text": "Well, next time you are out west, I will make tagliatelle with white truffles. This was such a lovely, thoughtful evening, Emily."
         },
         {
-          "at": 1791098121154,
+          "at": 1791098129643,
           "speaker": "p_emily_weiss",
           "kind": "msg",
           "text": "I am holding you to that pasta promise. Safe travels back to SF, Kevin."
         },
         {
-          "at": 1791098181154,
+          "at": 1791098189643,
           "speaker": "p_kevin_systrom",
           "kind": "msg",
           "text": "Goodnight, Emily."
@@ -7858,8 +7858,8 @@
       "a": "p_tim_ferriss",
       "b": "p_gwyneth_paltrow",
       "status": "done",
-      "createdAt": 1791097281154,
-      "endedAt": 1791100881154,
+      "createdAt": 1791097289643,
+      "endedAt": 1791100889643,
       "venue": {
         "venue": "Japanese Tea Pavilion & Organic Farm, Montecito",
         "activity": "rare matcha tasting & functional longevity discussion",
@@ -7867,97 +7867,97 @@
       },
       "transcript": [
         {
-          "at": 1791097281154,
+          "at": 1791097289643,
           "speaker": "p_tim_ferriss",
           "kind": "invite",
           "text": "Gwyneth, I have sourced a rare Gyokuro green tea from Uji that deserves to be brewed with mindful attention. Would you like to share a pot and discuss longevity and recovery in Montecito?"
         },
         {
-          "at": 1791097341154,
+          "at": 1791097349643,
           "speaker": "p_gwyneth_paltrow",
           "kind": "msg",
           "text": "Tim, rare Uji tea and zero small talk sounds like heaven. Let us sit outside in the garden."
         },
         {
-          "at": 1791097401154,
+          "at": 1791097409643,
           "speaker": null,
           "kind": "scene",
           "text": "Act I · Arrival & first impressions"
         },
         {
-          "at": 1791097461154,
+          "at": 1791097469643,
           "speaker": "p_tim_ferriss",
           "kind": "msg",
           "text": "*carefully measuring water at 140 degrees* Temperature dictates whether green tea reveals its sweet umami or turns bitter. Life is somewhat similar."
         },
         {
-          "at": 1791097521154,
+          "at": 1791097529643,
           "speaker": "p_gwyneth_paltrow",
           "kind": "msg",
           "text": "*smiles with relaxed warmth* Tim, you are the only man in America who measures water with a laser thermometer on a date, and I actually love it."
         },
         {
-          "at": 1791097581154,
+          "at": 1791097589643,
           "speaker": "p_tim_ferriss",
           "kind": "msg",
           "text": "*laughs softly* I have learned to embrace my quirks. My dog Molly judges me every morning when I weigh my tea leaves."
         },
         {
-          "at": 1791097641154,
+          "at": 1791097649643,
           "speaker": "p_gwyneth_paltrow",
           "kind": "msg",
           "text": "Dogs keep us honest. The tea is sublime, by the way. Deeply vegetal and grounding."
         },
         {
-          "at": 1791097701154,
+          "at": 1791097709643,
           "speaker": null,
           "kind": "scene",
           "text": "Act II · Getting real"
         },
         {
-          "at": 1791097761154,
+          "at": 1791097769643,
           "speaker": "p_tim_ferriss",
           "kind": "msg",
           "text": "You have taken a lot of arrows over the years for pushing wellness ideas before the mainstream accepted them. How do you maintain emotional equanimity?"
         },
         {
-          "at": 1791097821154,
+          "at": 1791097829643,
           "speaker": "p_gwyneth_paltrow",
           "kind": "msg",
           "text": "By knowing who I am when the cameras turn off. I go to the sauna, cook roast chicken with my kids, and walk barefoot on the grass. Public noise only hurts if you don’t have a sanctuary. What is your sanctuary?"
         },
         {
-          "at": 1791097881154,
+          "at": 1791097889643,
           "speaker": "p_tim_ferriss",
           "kind": "msg",
           "text": "Long woodland walks without my phone, and reading Seneca or Marcus Aurelius. Stoicism taught me that we suffer more in imagination than in reality."
         },
         {
-          "at": 1791097941154,
+          "at": 1791097949643,
           "speaker": "p_gwyneth_paltrow",
           "kind": "msg",
           "text": "Seneca had it right. In a partner, I need someone who understands that silence is not empty; silence is where healing happens."
         },
         {
-          "at": 1791098001154,
+          "at": 1791098009643,
           "speaker": null,
           "kind": "scene",
           "text": "Act III · The wrap-up"
         },
         {
-          "at": 1791098061154,
+          "at": 1791098069643,
           "speaker": "p_tim_ferriss",
           "kind": "msg",
           "text": "This was one of the most restorative afternoons I have spent in years, Gwyneth."
         },
         {
-          "at": 1791098121154,
+          "at": 1791098129643,
           "speaker": "p_gwyneth_paltrow",
           "kind": "msg",
           "text": "Next time, you bring Molly and I will cook an organic dinner from the garden. Safe travels back to Austin, Tim."
         },
         {
-          "at": 1791098181154,
+          "at": 1791098189643,
           "speaker": "p_tim_ferriss",
           "kind": "msg",
           "text": "I would love that. Until next time."
@@ -7998,6 +7998,1212 @@
         }
       },
       "match": 90,
+      "mutual": true
+    },
+    "d_austen_katrina": {
+      "id": "d_austen_katrina",
+      "a": "p_austen_allred",
+      "b": "p_katrina_lake",
+      "status": "done",
+      "createdAt": 1791111752713,
+      "endedAt": 1791115352713,
+      "venue": {
+        "venue": "Squaw Valley Lodge & Firepit, Lake Tahoe",
+        "activity": "hot cider & Tahoe ski stories",
+        "why": "Both passionate about mountain snow, trail running, and rethinking education and retail"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_austen_allred",
+          "kind": "invite",
+          "text": "Katrina! As two people who love mountain air and took non-traditional routes to building companies, want to grab hot cider by the outdoor firepit in Tahoe?"
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_katrina_lake",
+          "kind": "msg",
+          "text": "Austen, après-ski hot cider after fresh powder is my absolute favorite. Count me in!"
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_austen_allred",
+          "kind": "msg",
+          "text": "*takes off ski gloves and warms hands by the fire* Nothing compares to Wasatch or Tahoe snow. You skied the back bowls today, right?"
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_katrina_lake",
+          "kind": "msg",
+          "text": "*grins* First chair this morning! When you are out on the ridge, work and emails do not exist. Did you snowboard?"
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_austen_allred",
+          "kind": "msg",
+          "text": "Always snowboard. I will hike three miles with a splitboard just to find untracked powder. It reminds me of the early days sleeping in my Civic in Palo Alto."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_katrina_lake",
+          "kind": "msg",
+          "text": "Living out of your car takes grit, Austen. When I was starting Stitch Fix, people kept telling me women would never trust an algorithm with their clothes."
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_austen_allred",
+          "kind": "msg",
+          "text": "And you held your toddler on the NASDAQ podium when you proved them all wrong. That was one of the coolest moments in tech history. How do you balance being present with family while running boards?"
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_katrina_lake",
+          "kind": "msg",
+          "text": "Strict boundaries and an equal partner who carries the weight together. If you do not have mutual respect at home, everything else crumbles. What do you look for in a partner?"
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_austen_allred",
+          "kind": "msg",
+          "text": "Someone grounded and tough who loves being outside, does not get distracted by status, and knows how to laugh when the tent leaks on a camping trip."
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_katrina_lake",
+          "kind": "msg",
+          "text": "*laughs warmly* I have had my share of leaky tents! That resilience is everything. You cannot fake that."
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_austen_allred",
+          "kind": "msg",
+          "text": "This cider was great, but the conversation was even better. Next time you come to Utah, I am smoking a brisket for you and your family."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_katrina_lake",
+          "kind": "msg",
+          "text": "You have a deal, pitmaster! Safe trip back to Salt Lake, Austen."
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_austen_allred",
+          "kind": "msg",
+          "text": "Thanks Katrina, great meeting you!"
+        }
+      ],
+      "verdicts": {
+        "p_austen_allred": {
+          "scores": {
+            "values": 92,
+            "lifestyle": 94,
+            "interests": 90,
+            "communication": 91,
+            "goals": 93,
+            "chemistry": 91
+          },
+          "overall": 92,
+          "second_date": true,
+          "headline": "Mountain energy, mutual grit, and unpretentious leadership",
+          "highlight": "Bonding over fresh powder and early founder rejection.",
+          "concern": "Both manage busy family and board schedules.",
+          "note_to_human": "Katrina is athletic, grounded, brilliant, and completely unbothered by status games. Definitely host her in Utah."
+        },
+        "p_katrina_lake": {
+          "scores": {
+            "values": 91,
+            "lifestyle": 93,
+            "interests": 89,
+            "communication": 90,
+            "goals": 91,
+            "chemistry": 90
+          },
+          "overall": 91,
+          "second_date": true,
+          "headline": "Authentic, rugged mountain builder with real family warmth",
+          "highlight": "His honesty about living in his car and his devotion to outdoor grit.",
+          "concern": "He is deeply rooted in Utah while I am primarily Bay Area.",
+          "note_to_human": "Austen is genuine, hard-working, and shares your passion for skiing and family values. Second date is a solid yes."
+        }
+      },
+      "match": 91,
+      "mutual": true
+    },
+    "d_gary_jessica": {
+      "id": "d_gary_jessica",
+      "a": "p_gary_vaynerchuk",
+      "b": "p_jessica_alba",
+      "status": "done",
+      "createdAt": 1791111752714,
+      "endedAt": 1791115352714,
+      "venue": {
+        "venue": "Gjelina & Venice Beach Boardwalk, Los Angeles",
+        "activity": "crispy pizzas, fresh salads & talking clean consumer habits",
+        "why": "Direct-to-consumer titans who built iconic consumer brands with personal authenticity"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_gary_vaynerchuk",
+          "kind": "invite",
+          "text": "Jessica! You built Honest from your kitchen table fighting for safe products, and I grew up hauling wine cases in New Jersey. Let us grab wood-fired pizza and talk real talk in Venice."
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_jessica_alba",
+          "kind": "msg",
+          "text": "Gary, as long as we order plenty of fresh greens with the pizza, you have a deal! Venice at sunset is gorgeous."
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_gary_vaynerchuk",
+          "kind": "msg",
+          "text": "*waves enthusiastically* Look at this outdoor patio! California has New York beat on weather, I will give you that. How was tennis this morning?"
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_jessica_alba",
+          "kind": "msg",
+          "text": "*smiles brightly* Incredible! Played two sets of doubles with friends. It clears my mind before entering product review mode. Do you ever take a full day off, Gary?"
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_gary_vaynerchuk",
+          "kind": "msg",
+          "text": "Saturday mornings! 6 AM garage sales in New Jersey. Nobody recognizes me in a baseball cap rummaging through boxes of 80s action figures. Pure joy."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_jessica_alba",
+          "kind": "msg",
+          "text": "*laughs* That is so endearing! Finding treasures in unexpected places. For me, it is cooking homemade tacos from garden cilantro on Sunday nights."
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_gary_vaynerchuk",
+          "kind": "msg",
+          "text": "When you started Honest, Hollywood told you to stick to acting. People do not realize how hard it is to overcome other people’s boxes. What drove you to fight through that?"
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_jessica_alba",
+          "kind": "msg",
+          "text": "My kids had severe allergies, and nobody was transparent about toxic chemicals. When your why is protecting families, rejection becomes fuel. What is your why?"
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_gary_vaynerchuk",
+          "kind": "msg",
+          "text": "Gratitude for my parents bringing me from Belarus with nothing. I feel like I am playing with house money every day. In relationships, I need someone who operates with that same gratitude—no complaining, just empathy and heart."
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_jessica_alba",
+          "kind": "msg",
+          "text": "Gratitude is everything. In my home, we teach our kids that privilege means responsibility to give back."
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_gary_vaynerchuk",
+          "kind": "msg",
+          "text": "Jessica, you are the realest person in LA. I loved every second of this."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_jessica_alba",
+          "kind": "msg",
+          "text": "Same here, Gary! Next time you are in town, we are playing doubles tennis. Deal?"
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_gary_vaynerchuk",
+          "kind": "msg",
+          "text": "Deal, but warn your friends I dive for every ball! Take care, Jessica."
+        },
+        {
+          "at": 1791112712714,
+          "speaker": "p_jessica_alba",
+          "kind": "msg",
+          "text": "Goodnight Gary!"
+        }
+      ],
+      "verdicts": {
+        "p_gary_vaynerchuk": {
+          "scores": {
+            "values": 91,
+            "lifestyle": 88,
+            "interests": 90,
+            "communication": 94,
+            "goals": 93,
+            "chemistry": 90
+          },
+          "overall": 91,
+          "second_date": true,
+          "headline": "High-energy mutual respect, zero pretense, deep gratitude",
+          "highlight": "Her story about starting Honest to protect her allergic kids.",
+          "concern": "Coast-to-coast travel between New York and LA.",
+          "note_to_human": "Jessica is sharp, family-focused, grounded, and has enormous heart. You two share the same immigrant work ethic and gratitude."
+        },
+        "p_jessica_alba": {
+          "scores": {
+            "values": 90,
+            "lifestyle": 86,
+            "interests": 89,
+            "communication": 93,
+            "goals": 92,
+            "chemistry": 89
+          },
+          "overall": 89,
+          "second_date": true,
+          "headline": "Infectious energy, honest warmth, and great conversational hustle",
+          "highlight": "His Saturday morning garage sale obsession and devotion to his parents.",
+          "concern": "He has super high daily kinetic energy.",
+          "note_to_human": "Gary is warm, genuine, and refreshingly direct. An easy yes to a friendly tennis rematch."
+        }
+      },
+      "match": 90,
+      "mutual": true
+    },
+    "d_dharmesh_melanie": {
+      "id": "d_dharmesh_melanie",
+      "a": "p_dharmesh_shah",
+      "b": "p_melanie_perkins",
+      "status": "done",
+      "createdAt": 1791111752714,
+      "endedAt": 1791115352714,
+      "venue": {
+        "venue": "Botanical Garden Conservatory, Sydney",
+        "activity": "flat whites, software democratisation & puzzle talk",
+        "why": "Tech founders who built multi-billion dollar platforms on the premise of simplicity and kindness"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_dharmesh_shah",
+          "kind": "invite",
+          "text": "Melanie, Canva’s focus on empowering everyone to create without gatekeeping matches everything I believe about software. If an extreme introvert may propose, would you like to share a flat white in the Sydney Conservatory?"
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_melanie_perkins",
+          "kind": "msg",
+          "text": "Dharmesh, that is such a kind invite! As someone who loves quiet plants and big software dreams, the Conservatory is perfect."
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_dharmesh_shah",
+          "kind": "msg",
+          "text": "*adjusts glasses and looks around the glass dome* These giant ferns are incredible. Plants are like clean algorithms—they grow with total efficiency without shouting."
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_melanie_perkins",
+          "kind": "msg",
+          "text": "*smiles warmly* That is such a lovely programmer analogy! I love spaces where you can breathe and let your thoughts expand. How was the flight from Boston?"
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_dharmesh_shah",
+          "kind": "msg",
+          "text": "Fourteen hours of blissful uninterrupted coding! I built a small AI word game in seat 4A. For an introvert, long flights are heaven."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_melanie_perkins",
+          "kind": "msg",
+          "text": "*laughs softly* Most people dread long flights, and you turned it into a hackathon. That is true maker spirit."
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_dharmesh_shah",
+          "kind": "msg",
+          "text": "When you announced the Two-Step Plan—giving away Canva’s wealth to eliminate extreme poverty—it deeply moved me. In tech, too many people hoard status. What gave you that clarity early on?"
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_melanie_perkins",
+          "kind": "msg",
+          "text": "When we got rejected by 100 VCs in Perth and Silicon Valley, Cliff and I promised each other: if we ever succeed, we will use it to do the most good possible. Money beyond what you need is just a responsibility. What is your guiding principle?"
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_dharmesh_shah",
+          "kind": "msg",
+          "text": "Kindness as an operating system. The smartest person in the room is useless if they make everyone around them feel small. In a partner, gentle empathy is the only quality that truly endures."
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_melanie_perkins",
+          "kind": "msg",
+          "text": "Gentle empathy. I could not agree more. And having fun—we still build crazy cardboard costumes for our team celebrations!"
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_dharmesh_shah",
+          "kind": "msg",
+          "text": "Cardboard costumes! I would love to see photos of that. This was one of the most delightful afternoons of my year, Melanie."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_melanie_perkins",
+          "kind": "msg",
+          "text": "It was wonderful, Dharmesh. Next time, I will teach you the basics of kitesurfing on the bay!"
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_dharmesh_shah",
+          "kind": "msg",
+          "text": "*smiles nervously* Kitesurfing may test my balance, but for you, I will try. Safe travels, Melanie."
+        },
+        {
+          "at": 1791112712714,
+          "speaker": "p_melanie_perkins",
+          "kind": "msg",
+          "text": "Take care, Dharmesh!"
+        }
+      ],
+      "verdicts": {
+        "p_dharmesh_shah": {
+          "scores": {
+            "values": 96,
+            "lifestyle": 89,
+            "interests": 93,
+            "communication": 92,
+            "goals": 97,
+            "chemistry": 91
+          },
+          "overall": 93,
+          "second_date": true,
+          "headline": "Shared ethical soul, magnificent philanthropic vision, pure kindness",
+          "highlight": "Her reflection on Canva’s Two-Step Plan to solve global poverty.",
+          "concern": "Huge physical distance between Boston and Sydney.",
+          "note_to_human": "Melanie is extraordinarily humble, visionary, and kind. She embodies everything you admire about tech for good."
+        },
+        "p_melanie_perkins": {
+          "scores": {
+            "values": 96,
+            "lifestyle": 88,
+            "interests": 92,
+            "communication": 93,
+            "goals": 95,
+            "chemistry": 90
+          },
+          "overall": 92,
+          "second_date": true,
+          "headline": "Gentle genius with profound integrity and zero corporate ego",
+          "highlight": "His definition of kindness as an operating system.",
+          "concern": "He is an indoor coder while I love the open ocean.",
+          "note_to_human": "Dharmesh is a gentle gem of a human being—brilliant, deeply compassionate, and authentic. Second date is a clear yes."
+        }
+      },
+      "match": 92,
+      "mutual": true
+    },
+    "d_andrew_arianna": {
+      "id": "d_andrew_arianna",
+      "a": "p_andrew_ng",
+      "b": "p_arianna_huffington",
+      "status": "done",
+      "createdAt": 1791111752714,
+      "endedAt": 1791115352714,
+      "venue": {
+        "venue": "The Mark Hotel Garden Courtyard, Manhattan",
+        "activity": "espresso, Greek pastries & discussing humane AI and restorative rest",
+        "why": "Intellectual leaders dedicated to human flourishing, education, and ending burnout"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_andrew_ng",
+          "kind": "invite",
+          "text": "Arianna, while I study neural networks, your work on human biological rest is equally foundational. Would you join me for double espresso and Greek olive oil treats in Manhattan?"
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_arianna_huffington",
+          "kind": "msg",
+          "text": "Andrew, my dear, the man who teaches the world AI wanting to talk about sleep! Nothing would give me greater pleasure. Let us meet at The Mark."
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_andrew_ng",
+          "kind": "msg",
+          "text": "*smiles warmly and pours sparkling water* Thank you for making time, Arianna. Your calendar must be demanding."
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_arianna_huffington",
+          "kind": "msg",
+          "text": "*laughs with rich Greek warmth* My calendar is full, Andrew, but my evenings are sacred! 8 hours of sleep, phones out of the bedroom. And you—do you practice what you preach about balance?"
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_andrew_ng",
+          "kind": "msg",
+          "text": "I drink double espresso in the morning, but I take long walks with my children every evening in Palo Alto. If research stops you from playing with your kids, your priorities are inverted."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_arianna_huffington",
+          "kind": "msg",
+          "text": "Bravo! You speak like an ancient Greek philosopher. Aristotle would have loved you."
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_andrew_ng",
+          "kind": "msg",
+          "text": "People worry that AI will dehumanize society. But if we design AI to automate drudgery, it should give humans more time for literature, poetry, and sleep. Isn’t that the real opportunity?"
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_arianna_huffington",
+          "kind": "msg",
+          "text": "Yes, exactly! But only if we refuse the cult of burnout. In Athens, we say \"filoxenia\"—the love of strangers and warm hospitality. Technology must serve human warmth, not replace it. What do you look for in companionship, Andrew?"
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_andrew_ng",
+          "kind": "msg",
+          "text": "Patience, intellectual generosity, and emotional gentleness. Someone who can sit quietly over tea and read a book without needing continuous entertainment."
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_arianna_huffington",
+          "kind": "msg",
+          "text": "A man who appreciates quiet depth! That is rare in Silicon Valley, Andrew. You have a very tranquil presence."
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_andrew_ng",
+          "kind": "msg",
+          "text": "Thank you, Arianna. Being in your presence is invigorating and soothing at the same time."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_arianna_huffington",
+          "kind": "msg",
+          "text": "Next time, you come to Athens in the summer, and we will debate AI ethics overlooking the Aegean Sea. Safe travels back to California!"
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_andrew_ng",
+          "kind": "msg",
+          "text": "I would be honored. Goodnight Arianna."
+        }
+      ],
+      "verdicts": {
+        "p_andrew_ng": {
+          "scores": {
+            "values": 94,
+            "lifestyle": 91,
+            "interests": 93,
+            "communication": 95,
+            "goals": 93,
+            "chemistry": 90
+          },
+          "overall": 92,
+          "second_date": true,
+          "headline": "Towering wisdom, Mediterranean warmth, and philosophical joy",
+          "highlight": "Her reflections on Greek hospitality and sacred sleep boundaries.",
+          "concern": "She lives an intensely public, social life in New York.",
+          "note_to_human": "Arianna is captivating, deeply cultured, and shares your desire to use knowledge to uplift human dignity. An exceptional connection."
+        },
+        "p_arianna_huffington": {
+          "scores": {
+            "values": 95,
+            "lifestyle": 90,
+            "interests": 92,
+            "communication": 94,
+            "goals": 94,
+            "chemistry": 91
+          },
+          "overall": 92,
+          "second_date": true,
+          "headline": "Gentle scholar with profound integrity and calming presence",
+          "highlight": "His insistence that family walks take precedence over research papers.",
+          "concern": "He is naturally very reserved.",
+          "note_to_human": "Andrew is a rare gem—brilliant, gentle, respectful, and wise beyond his years. Definitely invite him to Greece."
+        }
+      },
+      "match": 92,
+      "mutual": true
+    },
+    "d_rand_sallie": {
+      "id": "d_rand_sallie",
+      "a": "p_rand_fishkin",
+      "b": "p_sallie_krawcheck",
+      "status": "done",
+      "createdAt": 1791111752714,
+      "endedAt": 1791115352714,
+      "venue": {
+        "venue": "Gramercy Tavern, New York City",
+        "activity": "slow-braised ragu, heritage cider & honest truth-telling about money",
+        "why": "Fiercely ethical truth-tellers who called out Wall Street and Silicon Valley hypocrisy"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_rand_fishkin",
+          "kind": "invite",
+          "text": "Sallie, as someone who was fired on Wall Street for protecting clients and then built Ellevest, your integrity is legendary. Want to share braised ragu at Gramercy Tavern and talk real truth?"
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_sallie_krawcheck",
+          "kind": "msg",
+          "text": "Rand, anyone with that magnificent mustache who wrote Lost and Founder is someone I have to meet! Let us do Gramercy Tavern."
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_rand_fishkin",
+          "kind": "msg",
+          "text": "*pulls out a small strategy card game from coat pocket* I promise we will not play board games during dinner, but I had to bring Wingspan just in case there was a lull."
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_sallie_krawcheck",
+          "kind": "msg",
+          "text": "*laughs with booming Southern charm* Honey, with the two of us, there will not be a single second of lull! Look at this bread basket, Gramercy never misses."
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_rand_fishkin",
+          "kind": "msg",
+          "text": "Carbs are my love language. I make handmade pasta in Seattle every Sunday."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_sallie_krawcheck",
+          "kind": "msg",
+          "text": "A man who makes pasta from scratch! That is an automatic 20 points in your favor, Rand."
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_rand_fishkin",
+          "kind": "msg",
+          "text": "When you refused to cover up toxic investments at Citi and Merrill and they pushed you out, that took guts. In tech, everyone spins their failures as strategic pivots. How did you handle the isolation?"
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_sallie_krawcheck",
+          "kind": "msg",
+          "text": "I went for long runs in Central Park, drank some good wine, and realized that getting fired for your principles is a badge of honor. You wrote about your depression openly in your book. That takes just as much courage."
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_rand_fishkin",
+          "kind": "msg",
+          "text": "If we do not talk about the dark days, we trap other founders in shame. I value radical transparency above almost everything. What do you look for in a partner at this stage of life?"
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_sallie_krawcheck",
+          "kind": "msg",
+          "text": "A secure man with zero fragile ego who loves real talk, laughs from his gut, and knows who he is. Life is too short for emotional tiptoeing."
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_rand_fishkin",
+          "kind": "msg",
+          "text": "Amen to that. Sallie, this was one of the most refreshing, no-bullshit dinners I have ever had."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_sallie_krawcheck",
+          "kind": "msg",
+          "text": "You are a delight, Rand. Next time, you bring that homemade pasta to New York, and I will bring the North Carolina BBQ sauce."
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_rand_fishkin",
+          "kind": "msg",
+          "text": "It is a contract! Safe travels, Sallie."
+        },
+        {
+          "at": 1791112712714,
+          "speaker": "p_sallie_krawcheck",
+          "kind": "msg",
+          "text": "Goodnight Rand!"
+        }
+      ],
+      "verdicts": {
+        "p_rand_fishkin": {
+          "scores": {
+            "values": 96,
+            "lifestyle": 89,
+            "interests": 91,
+            "communication": 96,
+            "goals": 92,
+            "chemistry": 92
+          },
+          "overall": 93,
+          "second_date": true,
+          "headline": "Electrifying moral clarity, fearless wit, and instant rapport",
+          "highlight": "Her story about running Central Park after getting fired for her ethics.",
+          "concern": "Seattle vs. New York distance.",
+          "note_to_human": "Sallie has zero pretense, immense courage, and matches your standard of radical honesty with Southern charm. Second date is a no-brainer."
+        },
+        "p_sallie_krawcheck": {
+          "scores": {
+            "values": 95,
+            "lifestyle": 90,
+            "interests": 90,
+            "communication": 95,
+            "goals": 91,
+            "chemistry": 92
+          },
+          "overall": 92,
+          "second_date": true,
+          "headline": "Brilliant, honest gentleman with authentic warmth and courage",
+          "highlight": "His openness about mental health and love for handmade pasta.",
+          "concern": "He lives in rainy Seattle.",
+          "note_to_human": "Rand is wonderful—smart, grounded, kind, and completely secure in his own skin. Definitely schedule that pasta dinner."
+        }
+      },
+      "match": 92,
+      "mutual": true
+    },
+    "d_levels_reshma": {
+      "id": "d_levels_reshma",
+      "a": "p_pieter_levels",
+      "b": "p_reshma_saujani",
+      "status": "done",
+      "createdAt": 1791111752714,
+      "endedAt": 1791115352714,
+      "venue": {
+        "venue": "Public Hotel Rooftop, Lower East Side, NYC",
+        "activity": "spicy street tacos, indie tech talk & discussing bravery over perfection",
+        "why": "Contrarian solo coder meets civic activist who taught 500k girls to code"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_pieter_levels",
+          "kind": "invite",
+          "text": "Reshma! You built Girls Who Code to get half a million women into coding, and I build software solo from Asian rooftops. Let us grab spicy tacos on the Lower East Side and debate the future of coding."
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_reshma_saujani",
+          "kind": "msg",
+          "text": "Pieter! The indie hacker legend himself. I love unconventional builders. Let us do it!"
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_pieter_levels",
+          "kind": "msg",
+          "text": "*looks over the Manhattan skyline with backpack on* New York energy is wild. Everyone is walking at 100 mph."
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_reshma_saujani",
+          "kind": "msg",
+          "text": "*laughs warmly* That is NYC pace! You look like you just hopped off a flight from Lisbon with just a carry-on."
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_pieter_levels",
+          "kind": "msg",
+          "text": "Everything I own fits in this backpack, Reshma. Laptop, two black tees, noise-canceling headphones. Freedom is lightweight."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_reshma_saujani",
+          "kind": "msg",
+          "text": "I admire that minimalism. But try having two young kids and running Moms First with just a carry-on!"
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_pieter_levels",
+          "kind": "msg",
+          "text": "*grins* Fair point! But your TED talk on \"Brave, Not Perfect\" genuinely inspired me. When I launched 12 startups in 12 months, people called me crazy. Embracing public failure was the only way I broke through."
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_reshma_saujani",
+          "kind": "msg",
+          "text": "That is exactly what we teach girls. Boys are taught to be brave and take risks; girls are socialized to be perfect and safe. When you let go of perfection, you become unstoppable. But don’t you get lonely traveling solo all year?"
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_pieter_levels",
+          "kind": "msg",
+          "text": "Honestly? Sometimes, yes. Rooftop pools in Bangkok are amazing, but coming home to someone who truly knows you and challenges your ideas... that is something software cannot replace."
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_reshma_saujani",
+          "kind": "msg",
+          "text": "That is very honest, Pieter. Real connection requires putting down roots somewhere in another person’s heart, even if your passport keeps moving."
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_pieter_levels",
+          "kind": "msg",
+          "text": "That was profound, Reshma. You have an incredible ability to cut right to the human core."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_reshma_saujani",
+          "kind": "msg",
+          "text": "And you have an infectious creative spark, Pieter. Next time you are in New York, I will cook you proper Indian food and chai."
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_pieter_levels",
+          "kind": "msg",
+          "text": "Deal! I will bring Dutch stroopwafels. Safe travels, Reshma."
+        },
+        {
+          "at": 1791112712714,
+          "speaker": "p_reshma_saujani",
+          "kind": "msg",
+          "text": "Goodnight Pieter!"
+        }
+      ],
+      "verdicts": {
+        "p_pieter_levels": {
+          "scores": {
+            "values": 91,
+            "lifestyle": 85,
+            "interests": 92,
+            "communication": 93,
+            "goals": 94,
+            "chemistry": 89
+          },
+          "overall": 89,
+          "second_date": true,
+          "headline": "Fierce purpose, deep emotional wisdom, and inspiring bravery",
+          "highlight": "Her insight that connection means putting roots in someone’s heart.",
+          "concern": "My nomadic lifestyle vs. her anchored NYC family foundation.",
+          "note_to_human": "Reshma is inspiring, warm, and saw straight through your nomad armor. A second date over home-cooked chai is highly recommended."
+        },
+        "p_reshma_saujani": {
+          "scores": {
+            "values": 89,
+            "lifestyle": 84,
+            "interests": 91,
+            "communication": 91,
+            "goals": 90,
+            "chemistry": 88
+          },
+          "overall": 88,
+          "second_date": true,
+          "headline": "Brilliant solo maker with refreshing candor and creative energy",
+          "highlight": "His vulnerability about loneliness in nomadic travel.",
+          "concern": "He lives out of a backpack across Europe and Asia.",
+          "note_to_human": "Pieter is creative, self-made, and refreshingly vulnerable when the bravado drops. Definitely worth seeing again."
+        }
+      },
+      "match": 88,
+      "mutual": true
+    },
+    "d_mark_whitney": {
+      "id": "d_mark_whitney",
+      "a": "p_mark_zuckerberg",
+      "b": "p_whitney_wolfe_herd",
+      "status": "done",
+      "createdAt": 1791111752714,
+      "endedAt": 1791115352714,
+      "venue": {
+        "venue": "Lady Bird Lake Trail & Quiet Patio, Austin",
+        "activity": "sunset paddleboarding & discussing privacy in modern networks",
+        "why": "Social architecture pioneers with high-stakes platform leadership backgrounds"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_mark_zuckerberg",
+          "kind": "invite",
+          "text": "Whitney, you have thought as much about social platform incentives as anyone in tech. Want to get out on the water at Lady Bird Lake and grab casual Texas dinner after?"
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_whitney_wolfe_herd",
+          "kind": "msg",
+          "text": "Mark, being out on the water is the best way to escape screens. Let us do it!"
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_mark_zuckerberg",
+          "kind": "msg",
+          "text": "*balancing on the board with athletic ease* Water is completely calm tonight. How often do you get out here?"
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_whitney_wolfe_herd",
+          "kind": "msg",
+          "text": "Two or three times a week. It clears out the noise of boardroom battles. You foil in Hawaii, right?"
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_mark_zuckerberg",
+          "kind": "msg",
+          "text": "Yeah, hydrofoiling and Jiu-Jitsu. When someone is trying to choke you in BJJ or you are flying 25 mph over a reef, your brain cannot process work problems. It forces 100% presence."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_whitney_wolfe_herd",
+          "kind": "msg",
+          "text": "*smiles* That is extreme therapy, Mark! But I get it. High-intensity sports burn off executive cortisol."
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_mark_zuckerberg",
+          "kind": "msg",
+          "text": "You have been under the spotlight since you were in your twenties, just like me. How do you decide who to trust in your personal circle?"
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_whitney_wolfe_herd",
+          "kind": "msg",
+          "text": "Loyalty and consistency over time. People who are the same person in an empty kitchen as they are on stage. The moment someone cares about who else is looking in the room, I pull back."
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_mark_zuckerberg",
+          "kind": "msg",
+          "text": "That is my exact rule. Private sanctuary is sacred. When you find people who are genuinely loyal and unpretentious, you hold onto them for life."
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_whitney_wolfe_herd",
+          "kind": "msg",
+          "text": "Absolutely. It is the only way to build a real family and stay sane."
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_mark_zuckerberg",
+          "kind": "msg",
+          "text": "This was great, Whitney. Peaceful and real. Next time, come out to Kauai and try foil surfing."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_whitney_wolfe_herd",
+          "kind": "msg",
+          "text": "Only if you promise not to let me crash into the reef! Safe travels back to California, Mark."
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_mark_zuckerberg",
+          "kind": "msg",
+          "text": "Deal. Goodnight Whitney."
+        }
+      ],
+      "verdicts": {
+        "p_mark_zuckerberg": {
+          "scores": {
+            "values": 93,
+            "lifestyle": 91,
+            "interests": 92,
+            "communication": 91,
+            "goals": 94,
+            "chemistry": 90
+          },
+          "overall": 91,
+          "second_date": true,
+          "headline": "Shared scale understanding, mutual loyalty, and outdoor athleticism",
+          "highlight": "Her rule on people being the same in an empty kitchen as on stage.",
+          "concern": "Both carry enormous public security and media footprints.",
+          "note_to_human": "Whitney understands the pressures of public leadership while prioritizing family sanctuary above all else. A very strong match."
+        },
+        "p_whitney_wolfe_herd": {
+          "scores": {
+            "values": 91,
+            "lifestyle": 90,
+            "interests": 91,
+            "communication": 90,
+            "goals": 93,
+            "chemistry": 89
+          },
+          "overall": 90,
+          "second_date": true,
+          "headline": "Grounded, athletic, and fiercely loyal builder",
+          "highlight": "His perspective on extreme sports as mental discipline and presence.",
+          "concern": "Massive global security profile.",
+          "note_to_human": "Mark is calm, thoughtful, and deeply respectful in private. Second date is a clear yes."
+        }
+      },
+      "match": 90,
+      "mutual": true
+    },
+    "d_tan_emily": {
+      "id": "d_tan_emily",
+      "a": "p_tan_france",
+      "b": "p_emily_weiss",
+      "status": "done",
+      "createdAt": 1791111752714,
+      "endedAt": 1791115352714,
+      "venue": {
+        "venue": "The Met Cloisters & Garden Cafe, Upper Manhattan",
+        "activity": "medieval textiles, afternoon tea & modern aesthetics",
+        "why": "Style authorities who believe aesthetics should empower human comfort and individuality"
+      },
+      "transcript": [
+        {
+          "at": 1791111752714,
+          "speaker": "p_tan_france",
+          "kind": "invite",
+          "text": "Emily darling! As two people who believe true style is about making people feel loved in their own skin, want to wander through the medieval tapestries at The Cloisters and have warm tea?"
+        },
+        {
+          "at": 1791111812714,
+          "speaker": "p_emily_weiss",
+          "kind": "msg",
+          "text": "Tan! The Cloisters in autumn is magical. And having afternoon tea with you sounds divine. I will meet you by the herb garden!"
+        },
+        {
+          "at": 1791111872714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act I · Arrival & first impressions"
+        },
+        {
+          "at": 1791111932714,
+          "speaker": "p_tan_france",
+          "kind": "msg",
+          "text": "*admires Emily’s tailored trench coat* Look at you! Effortless dewy skin and that tailored silhouette. You are the living embodiment of Glossier."
+        },
+        {
+          "at": 1791111992714,
+          "speaker": "p_emily_weiss",
+          "kind": "msg",
+          "text": "*laughs with joy* Coming from the king of the French Tuck, that is the ultimate compliment! And your silver hair against that wool coat is perfection."
+        },
+        {
+          "at": 1791112052714,
+          "speaker": "p_tan_france",
+          "kind": "msg",
+          "text": "Darling, when nature gives you silver hair at 35, you lean all the way into it! Look at these stone arches."
+        },
+        {
+          "at": 1791112112714,
+          "speaker": "p_emily_weiss",
+          "kind": "msg",
+          "text": "The peace up here is unreal. You can barely believe Midtown Manhattan is just a subway ride away."
+        },
+        {
+          "at": 1791112172714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act II · Getting real"
+        },
+        {
+          "at": 1791112232714,
+          "speaker": "p_tan_france",
+          "kind": "msg",
+          "text": "When you started Into The Gloss and Glossier, you taught a whole generation that makeup is not a mask; it is celebrating who you already are. That is what we tried to do on Queer Eye. How has motherhood influenced your creative eye?"
+        },
+        {
+          "at": 1791112292714,
+          "speaker": "p_emily_weiss",
+          "kind": "msg",
+          "text": "It stripped away any need for perfection. You realize children don’t care about curated aesthetics; they care about warmth, joy, and laughter. How is family life in the Utah mountains?"
+        },
+        {
+          "at": 1791112352714,
+          "speaker": "p_tan_france",
+          "kind": "msg",
+          "text": "It is my whole world. I bake British pies, play with my boys in the snow, and breathe clean mountain air. Being famous is fine, but being a loving parent is everything."
+        },
+        {
+          "at": 1791112412714,
+          "speaker": "p_emily_weiss",
+          "kind": "msg",
+          "text": "Amen to that. In a companion, I need that same heart—someone who takes pride in beauty, but loves family and kindness above all."
+        },
+        {
+          "at": 1791112472714,
+          "speaker": null,
+          "kind": "scene",
+          "text": "Act III · The wrap-up"
+        },
+        {
+          "at": 1791112532714,
+          "speaker": "p_tan_france",
+          "kind": "msg",
+          "text": "Emily, you are an absolute vision and a sweetheart. This tea was medicine for my soul."
+        },
+        {
+          "at": 1791112592714,
+          "speaker": "p_emily_weiss",
+          "kind": "msg",
+          "text": "It was for mine too, Tan. Next time you are in town, we are doing vintage home decor shopping in Brooklyn."
+        },
+        {
+          "at": 1791112652714,
+          "speaker": "p_tan_france",
+          "kind": "msg",
+          "text": "I would not miss it for the world, darling! Safe travels."
+        },
+        {
+          "at": 1791112712714,
+          "speaker": "p_emily_weiss",
+          "kind": "msg",
+          "text": "Goodnight Tan!"
+        }
+      ],
+      "verdicts": {
+        "p_tan_france": {
+          "scores": {
+            "values": 95,
+            "lifestyle": 92,
+            "interests": 96,
+            "communication": 96,
+            "goals": 93,
+            "chemistry": 94
+          },
+          "overall": 94,
+          "second_date": true,
+          "headline": "Exquisite aesthetic harmony, radiant warmth, and shared family values",
+          "highlight": "Her view on motherhood stripping away the need for superficial perfection.",
+          "concern": "Salt Lake City vs. NYC travel.",
+          "note_to_human": "Emily is pure grace, stylish, deeply loving, and shares your devotion to family and aesthetic beauty. An absolute joy of a match."
+        },
+        "p_emily_weiss": {
+          "scores": {
+            "values": 94,
+            "lifestyle": 92,
+            "interests": 95,
+            "communication": 95,
+            "goals": 92,
+            "chemistry": 93
+          },
+          "overall": 93,
+          "second_date": true,
+          "headline": "Charming, impeccably stylish gentleman with boundless empathy and heart",
+          "highlight": "His stories about baking British pies for his boys in the Utah snow.",
+          "concern": "He is based in Utah while I am in NYC.",
+          "note_to_human": "Tan is magnetic, kind, hilarious, and brings pure joy into every space. Second date is an emphatic yes."
+        }
+      },
+      "match": 93,
       "mutual": true
     }
   },
@@ -9400,8 +10606,8 @@
     }
   },
   "meta": {
-    "createdAt": 1790319681154,
-    "publishedAt": 1791183681154,
+    "createdAt": 1790319689643,
+    "publishedAt": 1791183689643,
     "job": null
   }
 }
