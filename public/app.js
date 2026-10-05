@@ -86,8 +86,22 @@ async function route(soft = false) {
     const m = hash.match(re);
     if (!m) continue;
     document.querySelectorAll('.nav a').forEach((a) => a.classList.toggle('active', hash.startsWith(a.getAttribute('href').split('/').slice(0, 2).join('/'))));
-    const y = window.scrollY;
-    try { await fn(m[1]); } catch (e) { $('#app').innerHTML = `<div class="empty">⚠️ ${esc(e.message)}</div>`; }
+    try { 
+      await fn(m[1]); 
+    } catch (e) { 
+      console.warn('Route failed:', e);
+      $('#app').innerHTML = `
+        <div class="card empty" style="max-width:540px;margin:60px auto;text-align:center">
+          <div style="font-size:32px;margin-bottom:10px">⚠️</div>
+          <h3 style="margin-bottom:8px">${esc(e.message)}</h3>
+          <p class="muted small">This item was not found or is still being generated.</p>
+          <div class="row center" style="margin-top:16px;gap:10px">
+            <a class="btn primary" href="#/dates">View Dates</a>
+            <a class="btn" href="#/people">View Agents</a>
+            <a class="btn" href="#/">Home</a>
+          </div>
+        </div>`; 
+    }
     if (soft) window.scrollTo(0, y); else window.scrollTo(0, 0);
     $('#go-live')?.addEventListener('click', () => setSpace('live'));
     return;
@@ -343,8 +357,32 @@ function datesView() {
   ${live.length ? `<div class="section-title"><span class="dot"></span> Happening now</div><div class="grid" style="margin-bottom:24px">${live.map(dc).join('')}</div>` : ''}
   <div class="section-title">Finished</div>
   ${rest.length ? `<div class="grid g2">${rest.map(dc).join('')}</div>` : `<div class="card empty">No dates yet.</div>`}`;
-  $('#btn-round')?.addEventListener('click', async () => { try { await api('/round', { method: 'POST', body: { perPerson: Number($('#per').value) } }); toast('Round started — agents are swiping…'); } catch (e) { toast('⚠️ ' + e.message); } });
-  $('#btn-pair')?.addEventListener('click', async () => { const a = $('#da').value, b = $('#db').value; if (!a || !b || a === b) return toast('Pick two different people'); try { const r = await api('/dates', { method: 'POST', body: { a, b } }); if (r.warning) toast(r.warning); location.hash = `#/d/${r.id}`; } catch (e) { toast('⚠️ ' + e.message); } });
+  $('#btn-round')?.addEventListener('click', async () => {
+    try {
+      const per = Number($('#per').value) || 1;
+      toast('Starting dating round — agents are swiping…');
+      const res = await api('/round', { method: 'POST', body: { perPerson: per } });
+      toast(res.completed ? 'Round completed!' : 'Round started — watch live…');
+      await refreshState();
+      route(true);
+    } catch (e) {
+      toast('⚠️ ' + e.message);
+    }
+  });
+  $('#btn-pair')?.addEventListener('click', async () => {
+    const a = $('#da').value, b = $('#db').value;
+    if (!a || !b || a === b) return toast('Pick two different people');
+    try {
+      toast('Setting up date…');
+      const r = await api('/dates', { method: 'POST', body: { a, b } });
+      if (!r.id) throw new Error('Could not initialize date');
+      if (r.warning) toast(r.warning);
+      await refreshState();
+      location.hash = `#/d/${r.id}`;
+    } catch (e) {
+      toast('⚠️ ' + e.message);
+    }
+  });
 }
 
 // ---------------------------------------------------------------- single date

@@ -4,7 +4,7 @@ import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { load, save, replace, bus, uid, ROOT, MEDIA_DIR, SEED_DIR } from './lib/db.js';
 import { analyzePerson } from './lib/analyze.js';
-import { runRound, runDate, rankingFor, eligible } from './lib/dating.js';
+import { runRound, runDate, initDate, rankingFor, eligible } from './lib/dating.js';
 import { parseInstagram, parseLinkedIn } from './lib/scrape.js';
 import { llmInfo } from './lib/llm.js';
 
@@ -156,9 +156,17 @@ app.post('/api/:space/people/:id/match', (req, res) => {
   res.json({ ok: true });
 });
 
-app.post('/api/:space/round', (req, res) => {
+app.post('/api/:space/round', async (req, res) => {
   if (req.db.meta.job?.running) return res.status(409).json({ error: 'A dating round is already running.' });
-  const perPerson = Math.max(1, Math.min(8, Number(req.body.perPerson) || 3));
+  const perPerson = Math.max(1, Math.min(8, Number(req.body.perPerson) || 1));
+  if (process.env.VERCEL) {
+    try {
+      await runRound(req.space, { perPerson });
+      return res.json({ ok: true, completed: true });
+    } catch (e) {
+      return res.status(500).json({ error: e.message });
+    }
+  }
   runRound(req.space, { perPerson }).catch((e) => console.error(e));
   res.json({ ok: true });
 });
@@ -168,13 +176,18 @@ app.post('/api/:space/dates', async (req, res) => {
   const A = req.db.people[a], B = req.db.people[b];
   if (!A || !B || A.status !== 'ready' || B.status !== 'ready') return res.status(400).json({ error: 'Both people must be analyzed first.' });
   if (a === b) return res.status(400).json({ error: 'Pick two different people.' });
-  const d = runDate(req.space, a, b);
-  // respond as soon as the date exists so the UI can watch it live
-  setTimeout(() => {
-    const live = Object.values(req.db.dates).filter((x) => x.a === a && x.b === b).sort((x, y) => y.createdAt - x.createdAt)[0];
-    res.json({ id: live?.id, warning: eligible(A, B) ? null : 'Note: their stated preferences don\'t match, but the date was run on request.' });
-  }, 50);
-  d.catch(() => {});
+  const d = initDate(req.space, a, b);
+  const warning = eligible(A, B) ? null : 'Note: their stated preferences don\'t match, but the date was run on request.';
+  if (process.env.VERCEL) {
+    try {
+      await runDate(req.space, a, b, d.id);
+    } catch (e) {
+      console.error(e);
+    }
+    return res.json({ id: d.id, warning });
+  }
+  res.json({ id: d.id, warning });
+  runDate(req.space, a, b, d.id).catch((e) => console.error(e));
 });
 
 app.get('/api/:space/dates/:id', (req, res) => {
