@@ -13,45 +13,20 @@ Wingman is an autonomous agentic dating platform where real individuals are repr
 ---
 
 ## 📑 Table of Contents
-1. [Required Submission Deliverables](#-required-submission-deliverables)
-2. [System Architecture](#-system-architecture)
+1. [System Architecture](#-system-architecture)
    - [High-Level System Component Diagram](#1-high-level-system-component-diagram)
    - [End-to-End Agent Lifecycle & Dating Pipeline](#2-end-to-end-agent-lifecycle--dating-pipeline)
    - [Live Multi-Turn Date Sequence Diagram](#3-live-multi-turn-date-sequence-diagram)
-3. [The 26 Real People Registry](#-the-26-real-people-registry)
-4. [Core Architectural Pillars](#-core-architectural-pillars)
+2. [The 26 Real People Registry](#-the-26-real-people-registry)
+3. [Core Architectural Pillars](#-core-architectural-pillars)
    - [Multi-Tier Scraping Subsystem](#1-multi-tier-scraping-subsystem)
    - [Strict Profile Reading Guardrails](#2-strict-profile-reading-guardrails)
    - [Isolated LLM Context Dating Harness](#3-isolated-llm-context-dating-harness)
    - [Scoring & Ranking Mathematical Model](#4-scoring--ranking-mathematical-model)
-5. [Frontend & Real-Time SSE Feed](#-frontend--real-time-sse-feed)
-6. [API & Event Stream Reference](#-api--event-stream-reference)
-7. [Getting Started & Local Setup](#-getting-started--local-setup)
-8. [Recommended 3-Minute Video Walkthrough Script](#-recommended-3-minute-video-walkthrough-script)
-
----
-
-## 📋 Required Submission Deliverables
-
-### 1. Overall Explanation (175 / 200 characters)
-```text
-AI agents represent real people by reading their public LinkedIn and Instagram, build evidence-grounded profiles, go on live multi-turn dates, and compute mutual fit rankings.
-```
-
-### 2. Technical Section (426 / 500 characters)
-```text
-We scrape Instagram via Apify actor (apify/instagram-profile-scraper) with fallback to public web_profile_info JSON for bio, captions, hashtags, and photos. LinkedIn uses Apify (dev_fusion/linkedin-profile-scraper) with fallback to public HTML JSON-LD schema and OpenGraph metadata. Submissions also support pasting visible profile text when anti-bot authwalls trigger. Gemini 2.5 Flash processes vision photos alongside text.
-```
-
-### 3. Submission Links
-- **Demo Link (Frozen pre-run example, view without typing)**:  
-  👉 [`http://localhost:3000/?space=demo`](http://localhost:3000/?space=demo) *(or deployed URL `https://your-wingman.app/?space=demo`)*
-- **Live Website (Try it live, paste your own links)**:  
-  👉 [`http://localhost:3000/?space=live`](http://localhost:3000/?space=live) *(or deployed URL `https://your-wingman.app/?space=live`)*
-- **GitHub Repository (Public)**:  
-  👉 [`https://github.com/your-username/wingman`](https://github.com/your-username/wingman)
-- **YouTube Video Demo (3 min max)**:  
-  👉 [`https://youtu.be/your-video-id`](https://youtu.be/your-video-id)
+4. [Frontend & Real-Time SSE Feed](#-frontend--real-time-sse-feed)
+5. [API & Event Stream Reference](#-api--event-stream-reference)
+6. [Getting Started & Local Setup](#-getting-started--local-setup)
+7. [Recommended 3-Minute Video Walkthrough Script](#-recommended-3-minute-video-walkthrough-script)
 
 ---
 
@@ -62,57 +37,12 @@ Wingman is designed as a decoupled, event-driven agentic framework built for rea
 ### 1. High-Level System Component Diagram
 
 <p align="center">
-  <img src="docs/images/High-Level%20System%20Component%20Diagram.png" alt="High-Level System Component Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <a href="docs/images/High-Level%20System%20Component%20Diagram.png" target="_blank" title="Click to view full-size 8K diagram">
+    <img src="docs/images/High-Level%20System%20Component%20Diagram.png" alt="High-Level System Component Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  </a>
+  <br/>
+  <sub>🔍 <a href="docs/images/High-Level%20System%20Component%20Diagram.png" target="_blank">Click image to open full resolution (8192 × 7648)</a></sub>
 </p>
-
-<details>
-<summary>🔍 <b>View Mermaid Diagram Source</b></summary>
-
-```mermaid
-graph TB
-    subgraph Client ["Client Tier (Browser SPA)"]
-        UI["Hash Router SPA<br/>(Vanilla JS / CSS)"]
-        SSE_REC["SSE Event Listener<br/>(Live Feed & Typing)"]
-        HEATMAP["Fit Matrix Heatmap<br/>& Interactive Theatre"]
-    end
-
-    subgraph ServerTier ["Server & API Tier (Node.js / Express)"]
-        ROUTER["REST API Router<br/>/api/:space/*"]
-        SSE_HUB["Server-Sent Events Bus<br/>(EventEmitter broadcast)"]
-        QUEUE["Analysis Concurrency Queue<br/>(Rate limiter: 3 parallel)"]
-    end
-
-    subgraph DataTier ["Dual-Space Storage Engine (lib/db.js)"]
-        DEMO_DB[("seed/demo.json<br/>(Frozen, Immutable Baseline)")]
-        LIVE_DB[("data/live.json<br/>(Visitor Playground)")]
-        MEDIA_STORE[("seed/media/*<br/>(Cached Vision Photos)")]
-    end
-
-    subgraph ScrapingTier ["Scraping Subsystem (lib/scrape.js)"]
-        APIFY_IG["Apify Actor<br/>instagram-profile-scraper"]
-        APIFY_LI["Apify Actor<br/>linkedin-profile-scraper"]
-        FALLBACK_IG["Instagram Public API<br/>/api/v1/users/web_profile_info"]
-        FALLBACK_LI["LinkedIn HTML Extractor<br/>JSON-LD + OpenGraph"]
-        MANUAL_INPUT["Submitter Profile Paste<br/>(Authwall Bypass)"]
-    end
-
-    subgraph IntelligenceTier ["LLM Agent Intelligence (lib/llm.js & lib/dating.js)"]
-        GEMINI["Google Gemini 2.5 Flash<br/>(Vision + JSON Mode + Thinking)"]
-        OPENAI["OpenAI GPT-4o-mini<br/>(Alternative Provider)"]
-        MOCK["Offline Heuristic Engine<br/>(Zero-Key Fallback)"]
-    end
-
-    UI -->|HTTP Requests| ROUTER
-    SSE_HUB -->|Event Stream| SSE_REC
-    ROUTER --> QUEUE
-    QUEUE --> ScrapingTier
-    ScrapingTier --> MEDIA_STORE
-    QUEUE --> IntelligenceTier
-    IntelligenceTier --> DataTier
-    DataTier --> ROUTER
-    ROUTER --> SSE_HUB
-```
-</details>
 
 ---
 
@@ -121,61 +51,12 @@ graph TB
 The system enforces a strict unidirectional progression from raw ingestion to the final ranked matrix:
 
 <p align="center">
-  <img src="docs/images/End-to-End%20Agent%20Lifecycle%20%26%20Dating%20Pipeline.png" alt="End-to-End Agent Lifecycle & Dating Pipeline" style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <a href="docs/images/End-to-End%20Agent%20Lifecycle%20%26%20Dating%20Pipeline.png" target="_blank" title="Click to view full-size high-res pipeline">
+    <img src="docs/images/End-to-End%20Agent%20Lifecycle%20%26%20Dating%20Pipeline.png" alt="End-to-End Agent Lifecycle & Dating Pipeline" style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  </a>
+  <br/>
+  <sub>🔍 <a href="docs/images/End-to-End%20Agent%20Lifecycle%20%26%20Dating%20Pipeline.png" target="_blank">Click image to open full resolution (1273 × 8192)</a></sub>
 </p>
-
-<details>
-<summary>🔍 <b>View Mermaid Diagram Source</b></summary>
-
-```mermaid
-flowchart TD
-    subgraph Stage1 ["Stage 1 · Two Sources Only"]
-        LI["Official Public LinkedIn URL"]
-        IG["Official Public Instagram URL"]
-    end
-
-    subgraph Stage2 ["Stage 2 · Ingestion & Vision Parsing"]
-        SCRAPE["Multi-tier Scraper<br/>Extract bio, career, captions, locations"]
-        VISION["Vision Processing<br/>Agent studies up to 6 Instagram photos"]
-        LOG["Real-time Reading Log Emission"]
-    end
-
-    subgraph Stage3 ["Stage 3 · Deep Profile Synthesis"]
-        LLM_READ["LLM Analysis with Strict Guardrails<br/>Evidence citing for all needs/hobbies/interests"]
-        CARD["Generate Public Dating Card<br/>(Written in Person's Real Voice)"]
-    end
-
-    subgraph Stage4 ["Stage 4 · Pairwise Swiping Matrix"]
-        SWIPE["Every Agent reads all other Dating Cards<br/>Privately scores 0-100 fit against human's needs"]
-        MATCHMAKER["Identify Top Mutual Prospects"]
-    end
-
-    subgraph Stage5 ["Stage 5 · Multi-Turn Date Theatre"]
-        PLAN["Initiator's Agent picks shared Venue & sends Invite"]
-        ACT1["Act I · Arrival & First Impressions"]
-        ACT2["Act II · Getting Real on Needs & Dealbreakers"]
-        ACT3["Act III · Wrap-up & Authentic Goodbye"]
-    end
-
-    subgraph Stage6 ["Stage 6 · Private Debrief & Ranking"]
-        DEBRIEF["Both Agents privately score Date across 6 Dimensions<br/>(Values, Lifestyle, Interests, Communication, Goals, Chemistry)"]
-        DECISION["Mutual 2nd Date Decision + Note to Human"]
-        RANK["Final Ranking Matrix:<br/>60% Own Agent + 40% Other + 5 Mutual Bonus"]
-    end
-
-    Stage1 --> Stage2
-    SCRAPE --> VISION
-    VISION --> LOG
-    Stage2 --> Stage3
-    LLM_READ --> CARD
-    Stage3 --> Stage4
-    SWIPE --> MATCHMAKER
-    Stage4 --> Stage5
-    PLAN --> ACT1 --> ACT2 --> ACT3
-    Stage5 --> Stage6
-    DEBRIEF --> DECISION --> RANK
-```
-</details>
 
 ---
 
@@ -184,55 +65,12 @@ flowchart TD
 During a date, both agents operate in **completely isolated LLM contexts**. Each agent knows its own human deeply but only knows the other person through their public dating card:
 
 <p align="center">
-  <img src="docs/images/Live%20Multi-Turn%20Date%20Sequence%20Diagram.png" alt="Live Multi-Turn Date Sequence Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <a href="docs/images/Live%20Multi-Turn%20Date%20Sequence%20Diagram.png" target="_blank" title="Click to view full-size high-res sequence diagram">
+    <img src="docs/images/Live%20Multi-Turn%20Date%20Sequence%20Diagram.png" alt="Live Multi-Turn Date Sequence Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  </a>
+  <br/>
+  <sub>🔍 <a href="docs/images/Live%20Multi-Turn%20Date%20Sequence%20Diagram.png" target="_blank">Click image to open full resolution (7895 × 7560)</a></sub>
 </p>
-
-<details>
-<summary>🔍 <b>View Mermaid Diagram Source</b></summary>
-
-```mermaid
-sequenceDiagram
-    autonumber
-    participant UI as Browser (Date Theatre)
-    participant Svr as Express Server / DB
-    participant AgtA as Agent A (Brian's Agent)
-    participant AgtB as Agent B (Whitney's Agent)
-    participant SSE as SSE Stream
-
-    Note over AgtA,AgtB: Isolated LLM Contexts (Zero Cross-Contamination)
-    Svr->>AgtA: Plan date from shared interests
-    AgtA->>Svr: Venue: Continental Club Patio, Austin + Invite Message
-    Svr->>SSE: Emit date_venue & date_msg (invite)
-    SSE->>UI: Render venue card & invite bubble
-
-    Svr->>AgtB: Received invite. Reply in character AS Whitney
-    AgtB->>Svr: Act I Greeting & playful acoustic observation
-    Svr->>SSE: Emit date_msg (reply)
-    SSE->>UI: Render reply bubble with typing indicator
-
-    loop Turns 1 to 10 (Acts I, II, III)
-        AgtA->>Svr: Conversational turn in Brian's voice (probing needs)
-        Svr->>SSE: Emit date_msg
-        SSE->>UI: Append message & smooth scroll
-        AgtB->>Svr: Conversational turn in Whitney's voice (testing dealbreakers)
-        Svr->>SSE: Emit date_msg
-        SSE->>UI: Append message & smooth scroll
-    end
-
-    Note over Svr,AgtB: Post-Date Private Debrief
-    par Agent A Private Verdict
-        Svr->>AgtA: Debrief privately to Brian (Loyalty to Brian only)
-        AgtA->>Svr: Scores, Headline, Best Moment, Concern, Note, 2nd Date: YES
-    and Agent B Private Verdict
-        Svr->>AgtB: Debrief privately to Whitney (Loyalty to Whitney only)
-        AgtB->>Svr: Scores, Headline, Best Moment, Concern, Note, 2nd Date: YES
-    end
-
-    Svr->>Svr: Calculate Harmonic Match: 91% · Mutual: true
-    Svr->>SSE: Emit date_end (match: 91, mutual: true)
-    SSE->>UI: Display Match Hero & Dual Private Debrief Cards
-```
-</details>
 
 ---
 
