@@ -1,0 +1,18 @@
+{
+  "name": "wingman",
+  "version": "1.0.0",
+  "description": "Wingman — an agentic dating site. Every person is represented by an AI agent that reads their LinkedIn + Instagram, then dates other agents on their behalf.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
